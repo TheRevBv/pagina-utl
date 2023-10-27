@@ -1,9 +1,12 @@
 import React from 'react';
 import Image from "next/image";
 import shape from "@assets/img/shape/curved-line-2.png";
-import bg_1 from "@assets/img/hero/slider-3.jpg";
-import bg_2 from "@assets/img/hero/slider-2.jpg";
-import bg_3 from "@assets/img/hero/slider-1.jpg";
+//import bg_1 from "@assets/img/hero/slider-3.jpg";
+//import bg_2 from "@assets/img/hero/slider-2.jpg";
+//import bg_3 from "@assets/img/hero/slider-1.jpg";
+import bg_1 from "@assets/img/hero/img-Alumnos.jpg";
+import bg_2 from "@assets/img/hero/utl-Patio2.png";
+import bg_3 from "@assets/img/hero/img-Programa.jpeg";
 import { Scrollbar, A11y, Autoplay, EffectFade, Navigation } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css/bundle';
@@ -14,25 +17,25 @@ const hero_data = [
         id: 1,
         shape: shape,
         bg: bg_1,
-        subTitle: 'Kindergarten Program',
-        title: 'Best Children’s Education',
-        btn: 'Admission open 22-23',
+        subTitle: 'Variedad de carreras y programas académicos',
+        title: 'Encuentra tu vocación',
+        btn: 'Admiciones abiertas',
     },
     {
         id: 2,
         shape: shape,
         bg: bg_2,
-        subTitle: 'Nursery Program',
-        title: 'Best Nursery Education',
-        btn: 'Admission open 22-23',
+        subTitle: 'Instalaciones de primer nivel y profesores de calidad',
+        title: 'Ecxelentes Intalaciones',
+        btn: 'Ver más',
     },
     {
         id: 3,
         shape: shape,
         bg: bg_3,
-        subTitle: 'Kindergarten Program',
-        title: 'Best Junior KG Education',
-        btn: 'Admission open 22-23',
+        subTitle: 'Programas de intercambio y oportunidades de crecimiento en varios paises',
+        title: 'Oportunidades para tu futuro',
+        btn: 'ver detalles',
     }
 ]
 

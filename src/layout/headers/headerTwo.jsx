@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import TopbarTwo from './component/topbar/topbarTwo';
-import logo from "@assets/img/logo/logo.svg";
+import logo from "@assets/img/logo/logoUTL.png";
 import Image from "next/image";
 import Link from "next/link";
 import Menus from './menus';
@@ -24,7 +24,7 @@ const HeaderTwo = () => {
                                 <div className="d-flex align-items-center justify-content-between">
                                     <div className="bd-header-logo">
                                         <Link href="/">
-                                            <Image src={logo} style={{ width: "100%", height: "100%" }} alt="img not found" />
+                                            <Image src={logo} style={{ width: "60%", height: "auto" }} alt="img not found" />
                                         </Link>
                                     </div>
                                     <div className="bd-main-menu d-none d-lg-flex align-items-center">

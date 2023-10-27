@@ -1,5 +1,6 @@
 import React from "react";
-import faqImg from "@assets/img/faq/1.jpg";
+//import faqImg from "@assets/img/faq/1.jpg";
+import imgRectoria from "@assets/img/utl/imgRectoria.jpg";
 import trippleLine from "@assets/img/shape/tripple-line.png";
 import Image from "next/image";
 
@@ -14,8 +15,8 @@ const HomeAbout = () => {
               <div className="bd-faq-content mb-60">
                 <div className="bd-section-title-wrapper mb-25 wow fadeInLeft" data-wow-duration="1s"
                   data-wow-delay=".3s">
-                  <h2 className="bd-section-title mb-0">Know More
-                    <br />About Kindedo
+                  <h2 className="bd-section-title mb-0">Conoce mas
+                    <br />Sobre UTL
                   </h2>
                 </div>
                 <div className="bd-faq wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">
@@ -24,7 +25,7 @@ const HomeAbout = () => {
                       <h2 className="accordion-header" id="headingOne">
                         <button className="accordion-button" type="button" data-bs-toggle="collapse"
                           data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          What is the best age to start Kindergarten?
+                         Quienes somos?
                         </button>
                       </h2>
                       <div id="collapseOne" className="accordion-collapse collapse show"
@@ -39,7 +40,7 @@ const HomeAbout = () => {
                       <h2 className="accordion-header" id="headingTwo">
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                           data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          Which is the best preschool for your child ?
+                          Mision, vision y valores
                         </button>
                       </h2>
                       <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo"
@@ -55,7 +56,7 @@ const HomeAbout = () => {
                       <h2 className="accordion-header" id="headingThree">
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                           data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                          What is the toution fee on first year?
+                          Porque elegirnos?
                         </button>
                       </h2>
                       <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree"
@@ -76,7 +77,7 @@ const HomeAbout = () => {
                   <div className="bd-faq-thumb-mask p-relative wow fadeInRight" data-wow-duration="1s"
                     data-wow-delay=".3s">
                     <Image
-                      src={faqImg}
+                      src={imgRectoria}
                       style={{ width: "100%", height: "100%" }}
                       alt="faq img"
                     />

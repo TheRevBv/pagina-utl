@@ -26,9 +26,11 @@ const HomeTwoGallary = () => {
                     <div className="row justify-content-center">
                         <div className="col-lg-8">
                             <div className="bd-section-title-wrapper mb-55 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                                <h2 className="bd-section-title mb-0">See our gallery</h2>
-                                <p>It is our goal to provide age appropriate opportuniy for every child enrolled in Kindedo Kids
-                                    Club enrichment classes.</p>
+                                <h2 className="bd-section-title mb-0">Algunas fotos de Nuestra Galeria</h2>
+                                <p>
+                                    Nuestro compromiso es con la educación de calidad, por eso contamos con instalaciones de primer nivel ademas de programas y capcitaciones
+                                     para que nuestros estudiantes puedan desarrollar sus habilidades y conocimientos.
+                                </p>
                             </div>
                         </div>
                     </div>

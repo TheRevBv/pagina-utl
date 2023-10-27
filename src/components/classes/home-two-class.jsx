@@ -13,9 +13,8 @@ const HomeTwoClass = () => {
                     <div className="col-lg-8">
                         <div className="bd-section-title-wrapper text-center mb-55 wow fadeInUp" data-wow-duration="1s"
                             data-wow-delay=".2s">
-                            <h2 className="bd-section-title mb-0">Our Offerings</h2>
-                            <p>Our multi-level kindergarten programs cater to the age group of 2-5 years<br /> with a curriculum
-                                focussing children.</p>
+                            <h2 className="bd-section-title mb-0">Secciones Comunes</h2>
+                            <p>Accede a alas secciones mas utilizas.</p>
                         </div>
                     </div>
                 </div>
@@ -58,10 +57,10 @@ const HomeTwoClass = () => {
                                         return (
                                             <SwiperSlide key={index}>
                                                 <div className="bd-class-wrapper-2 text-center">
-                                                    <div className={`bd-class-2 ${item.clrClass ? item.clrClass : ''}`}>
+                                                    <div className={`bd-class-2`}>
                                                         <div className="bd-class-icon-wrapper">
                                                             <div className="bd-class-icon-2">
-                                                                <i className={item.icon}></i>
+                                                                <img src={item.icon.src} alt="img not found" style={{width:"auto", height: "20rem"}} />
                                                             </div>
                                                         </div>
                                                         <div className="bd-class-content">
