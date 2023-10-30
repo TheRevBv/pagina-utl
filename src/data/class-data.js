@@ -6,11 +6,49 @@ import img_4 from '@assets/img/class/3.jpg';
 import img_5 from '@assets/img/class/1.jpg';
 import img_6 from '@assets/img/class/2.jpg';
 import author_1 from '@assets/img/teacher/small-1.png';
+import bibliotecaDigital from '@assets/img/utl/bibliotecavirtual.png';
+import aulaVirtual from '@assets/img/utl/imgAulaVirtual.jpg';
+import oferta from '@assets/img/utl/imgOferta.png';
+import sito from '@assets/img/utl/imgSito.png';
 
 
 const class_data = [
   // home class data 
   {
+    id:1,
+    icon: oferta,
+    title:'Oferta Educativa',
+    teaser:'Encuentra la mejor oferta educativa en un solo lugar.',
+    btn:'Ver Detalles',
+    shape:shape1,
+  },
+  {
+    id:2,
+    icon: aulaVirtual,
+    title:'Aula Virtual',
+    teaser:'Accede a tu aula virtual desde cualquier lugar.',
+    btn:'Acceder',
+    shape:shape1,
+    clrClass:'clr-2',
+  },
+  {
+    id:3,
+    icon: sito,
+    title:'SITO',
+    teaser:'Consulta tus calificaciones y realiza tus tramites en linea.',
+    btn:'Ingresar',
+    shape:shape1,
+  },
+  {
+    id:4,
+    icon: bibliotecaDigital,
+    title:'Biblioteca Digital',
+    teaser:'Miles de libros a tu alcance.',
+    btn:'Ingresar',
+    shape:shape1,
+    clrClass:'clr-2',
+  },
+ /*  {
     id:1,
     icon:'flaticon-sports',
     title:'Sports Class',
@@ -47,7 +85,7 @@ const class_data = [
     shape:shape1,
     clrClass:'clr-2',
     price: 145.00,
-  },
+  }, */
   // classes page data
   {
     id:5,

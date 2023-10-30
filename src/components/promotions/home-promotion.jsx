@@ -10,23 +10,23 @@ import useModal from '@hooks/use-modal';
 const fact_items = [
     {
         id: 1,
-        count: '14',
-        title: 'Years of',
-        subTitle: 'experience',
+        count: '28',
+        title: 'Años de',
+        subTitle: 'experiencia',
         text: '+',
     },
     {
         id: 2,
-        count: '7',
-        title: 'Students',
-        subTitle: 'each year',
+        count: '5',
+        title: 'Estudiantes',
+        subTitle: 'cada año',
         text: 'K+',
     },
     {
         id: 3,
-        count: '15',
-        title: 'Award',
-        subTitle: 'Wining',
+        count: '18',
+        title: 'Reconocimientos',
+        subTitle: 'Ganados',
         text: '+',
     }
 ];
@@ -58,16 +58,10 @@ const HomePromotion = ({promoImg, promo_space}) => {
                         <div className="col-xl-6 col-lg-6">
                             <div className="bd-promotion mb-60 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
                                 <div className="bd-section-title-wrapper mb-35">
-                                    <h2 className="bd-section-title mb-10">Best for Your Kids</h2>
-                                    {promo_space &&
-                                        <span>
-                                            Some states and countries implement mandatory early childhood education
-                                            such rules, many preschool.
-                                        </span>
-                                    }
-                                    <p> Being brave isn’t always a grand gesture sometimes it just means having a go attempting
-                                        that difficult question, offering an answer in a lesson when you’re
-                                        simply really trying new.
+                                    <h2 className="bd-section-title mb-10">Formamos Grandes Profecionales</h2>
+                                    <p> Ser valiente no siempre es un gran gesto, a veces solo significa intentarlo.
+                                        esa pregunta difícil, ofrecer una respuesta en una lección cuando estás
+                                        simplemente realmente intentando algo nuevo.
                                     </p>
                                 </div>
                                 {!promo_space && <div className="bd-promotion-counter-wrapper mb-40">
@@ -83,8 +77,8 @@ const HomePromotion = ({promoImg, promo_space}) => {
                                 </div>}
                                 <div className="bd-promotion-list mb-50">
                                     <ul>
-                                        <li>We believe every child is intelligent so we care.</li>
-                                        <li>Teachers make a difference of your child.</li>
+                                        <li>Cada Alumno es parte de la comunidad UTL </li>
+                                        <li>Profesores con un gran nivel academico y calificados</li>
                                     </ul>
                                 </div>
                                 <div className="bd-promotion-btn-wrapper flex-wrap">

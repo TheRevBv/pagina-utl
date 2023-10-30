@@ -1,9 +1,16 @@
 // home main
+/*
 import img_1 from '@assets/img/gallery/1.png';
 import img_2 from '@assets/img/gallery/2.png';
 import img_3 from '@assets/img/gallery/3.png';
 import img_4 from '@assets/img/gallery/4.png';
 import img_5 from '@assets/img/gallery/d1.png';
+*/
+import img_1 from '@assets/img/utlGallary/img1.jpg';
+import img_2 from '@assets/img/utlGallary/img2.jpg';
+import img_3 from '@assets/img/utlGallary/img3.jpg';
+import img_4 from '@assets/img/utlGallary/img4.jpg';
+import img_5 from '@assets/img/utlGallary/img5.jpg';
 
 import img_6 from '@assets/img/gallery/d1.png';
 import img_7 from '@assets/img/gallery/d2.png';
@@ -40,7 +47,7 @@ const gallary_data = [
   },
   {
     id: 5,
-    img: img_1,
+    img: img_5,
     icon: 'flaticon-eye',
   },
 
