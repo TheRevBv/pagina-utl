@@ -4,25 +4,25 @@ import Footer from "@layout/footers/footer";
 import HomeNewsletter from "@components/newsletter/home-newsletter";
 import Breadcrumb from "@components/common/breadcrumb/breadcrumb";
 // import ProgramPageMain from "@components/programs/program-page-main";
-import SoyAspirantePageMain from "@components/soy-aspirante/soy-aspirante-page-main";
+// import SoyAspirantePageMain from "@components/soy-aspirante/soy-aspirante-page-main";
 import AboutTestimonial from "@components/testimonials/about-testimonial";
-import ProgramPromotion from "@components/promotions/program-promotion";
+// import ProgramPromotion from "@components/promotions/program-promotion";
 import HeaderFour from "@layout/headers/headerFour";
 
-const SoyAspirantePage = () => {
+const SoyEmpresarioPage = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"Soy Aspirante"} />
+      <SEO pageTitle={"Soy Empresario"} />
       <HeaderFour />
-      <Breadcrumb title="Soy Aspirante" subTitle="Soy Aspirante" />
-      <SoyAspirantePageMain />
+      <Breadcrumb title="Soy Empresario" subTitle="Soy Empresario" />
+      {/* <SoyAspirantePageMain /> */}
       {/* <ProgramPageMain /> */}
       <AboutTestimonial />
-      <ProgramPromotion />
+      {/* <ProgramPromotion /> */}
       <HomeNewsletter />
       <Footer />
     </Wrapper>
   );
 };
 
-export default SoyAspirantePage;
+export default SoyEmpresarioPage;

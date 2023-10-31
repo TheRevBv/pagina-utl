@@ -154,8 +154,8 @@ const footer_data = {
       {
         id: 3,
         icon: "fa-light fa-envelope",
-        url: "mailto:support@kindedo.com",
-        title: "Support@kindedo.com",
+        url: "mailto:support@utleon.edu.mx",
+        title: "Support@utleon.edu.mx",
       },
     ],
   },

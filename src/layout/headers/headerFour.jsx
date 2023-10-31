@@ -60,8 +60,8 @@ const HeaderFour = () => {
                     <div className="bd-header-btn d-none d-xl-block">
                       <Link href="/contact" className="bd-btn">
                         <span className="bd-btn-inner">
-                          <span className="bd-btn-normal">Apply now</span>
-                          <span className="bd-btn-hover">Apply now</span>
+                          <span className="bd-btn-normal">Herramientas</span>
+                          <span className="bd-btn-hover">Herramientas</span>
                         </span>
                       </Link>
                     </div>

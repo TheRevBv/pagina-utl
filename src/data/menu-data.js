@@ -2,7 +2,7 @@ const menu_data = [
   {
     id: 1,
     hasDropdown: true,
-    title: "Home",
+    title: "Inicio",
     link: "/",
     submenus: [
       { title: "Home Style 1", link: "/" },
@@ -13,7 +13,7 @@ const menu_data = [
   {
     id: 2,
     hasDropdown: false,
-    title: "About",
+    title: "Sobre Nosotros",
     link: "/about",
   },
   /*
@@ -147,6 +147,7 @@ const menu_data = [
       { title: "Checkout", link: "/checkout" },
     ],
   },
+  /* 
   {
     id: 5,
     title: "Pages",
@@ -188,11 +189,54 @@ const menu_data = [
         ],
       },
     ],
+  }, 
+  */
+  {
+    id: 5,
+    title: "Soy Empresario",
+    megaMenu: true,
+    link: "/soy-empresario",
+    pages: true,
+    mega_menus: [
+      {
+        title: "Page Layout 1",
+        link: "#",
+        submenus: [
+          { title: "Program", link: "/programs" },
+          { title: "Program Details", link: "/program-details" },
+          { title: "Teacher", link: "/teachers" },
+          { title: "Teacher Details", link: "/teacher-details" },
+          { title: "Time Table", link: "/time-tables" },
+        ],
+      },
+      {
+        title: "Page Layout 2",
+        link: "#",
+        submenus: [
+          { title: "Testimonial", link: "/testimonials" },
+          { title: "Gallery", link: "/gallery" },
+          { title: "FAQ", link: "/faq" },
+          { title: "Class", link: "/classes" },
+          { title: "Class Details", link: "/class-details" },
+        ],
+      },
+      {
+        title: "Page Layout 3",
+        link: "#",
+        submenus: [
+          { title: "About", link: "/about" },
+          { title: "Contact", link: "/contact" },
+          { title: "Login", link: "/login" },
+          { title: "Register", link: "/register" },
+          { title: "Error Page", link: "/404" },
+        ],
+      },
+    ],
   },
   {
     id: 6,
     hasDropdown: true,
-    title: "News",
+    title: "Noticias",
     link: "/news",
     submenus: [
       { title: "News Default", link: "/news" },
@@ -204,7 +248,7 @@ const menu_data = [
   {
     id: 7,
     hasDropdown: false,
-    title: "Contact",
+    title: "Contactanos",
     link: "/contact",
   },
 ];
