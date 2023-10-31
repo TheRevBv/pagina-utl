@@ -16,37 +16,39 @@ const menu_data = [
     title: "About",
     link: "/about",
   },
-  // {
-  //   id: 3,
-  //   title: 'Programs',
-  //   megaMenuTwo: true,
-  //   megaMenu: false,
-  //   link: '/programs',
-  //   mega_menus_two: [
-  //     {
-  //       title: 'List 1', link: '#',
-  //       submenus: [
-  //         {title:'Settling',link:'/program-details', count:'01', age:'4-5 Yrs'},
-  //         {title:'Nuesery Group',link:'/program-details', count:'02', age:'3-4 Yrs'},
-  //         {title:'Play Group',link:'/program-details', count:'03', age:'2-3 Yrs'},
-  //       ]
-  //     },
-  //     {
-  //       title: 'List 2', link: '#',
-  //       submenus: [
-  //         {title:'Nuesery',link:'/program-details', count:'04', age:'3-4 Yrs'},
-  //         {title:'Junior Kg',link:'/program-details', count:'05', age:'4-5 Yrs'},
-  //         {title:'Senior Kg',link:'/program-details', count:'06', age:'5-6 Yrs'},
-  //       ]
-  //     },
-  //     {
-  //       title: 'List 3', link: '#',
-  //       submenus: [
-  //         {programImg: true, title:'Join New Program',link:'/programs', img:'/assets/img/logo/mega-menu-1.png', btn:'View More'},
-  //       ]
-  //     }
-  //   ]
-  // },
+  /*
+  {
+    id: 3,
+    title: 'Programs',
+    megaMenuTwo: true,
+    megaMenu: false,
+    link: '/programs',
+    mega_menus_two: [
+      {
+        title: 'List 1', link: '#',
+        submenus: [
+          {title:'Settling',link:'/program-details', count:'01', age:'4-5 Yrs'},
+          {title:'Nuesery Group',link:'/program-details', count:'02', age:'3-4 Yrs'},
+          {title:'Play Group',link:'/program-details', count:'03', age:'2-3 Yrs'},
+        ]
+      },
+      {
+        title: 'List 2', link: '#',
+        submenus: [
+          {title:'Nuesery',link:'/program-details', count:'04', age:'3-4 Yrs'},
+          {title:'Junior Kg',link:'/program-details', count:'05', age:'4-5 Yrs'},
+          {title:'Senior Kg',link:'/program-details', count:'06', age:'5-6 Yrs'},
+        ]
+      },
+      {
+        title: 'List 3', link: '#',
+        submenus: [
+          {programImg: true, title:'Join New Program',link:'/programs', img:'/assets/img/logo/mega-menu-1.png', btn:'View More'},
+        ]
+      }
+    ]
+  },
+  */
   {
     id: 3,
     title: "Soy Aspirante",
@@ -117,11 +119,26 @@ const menu_data = [
       },
     ],
   },
+  /*
   {
     id: 4,
     hasDropdown: true,
     title: "Shop",
     link: "/shop",
+    submenus: [
+      { title: "Shop Main", link: "/shop" },
+      { title: "Shop Details", link: "/shop-details" },
+      { title: "Wishlist", link: "/wishlist" },
+      { title: "Cart", link: "/cart" },
+      { title: "Checkout", link: "/checkout" },
+    ],
+  },
+  */
+  {
+    id: 4,
+    hasDropdown: true,
+    title: "Soy Estudiante",
+    link: "/soy-estudiante",
     submenus: [
       { title: "Shop Main", link: "/shop" },
       { title: "Shop Details", link: "/shop-details" },
