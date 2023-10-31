@@ -1,13 +1,14 @@
 import React from 'react';
 import Image from "next/image";
-import big_image from "@assets/img/testimonials/big-1.jpg";
+//import big_image from "@assets/img/testimonials/big-1.jpg";
+import big_image from "@assets/img/utl/imgTestimonio.png";
 import img1 from "@assets/img/testimonials/1.png";
 import img2 from "@assets/img/testimonials/2.png";
 
 const testimonial_data = [
     {
         id: 1,
-        review: 'Happy Christmas to the whole Kindedo from everyone at Monkton. A big thank you to Kindedo pupil Will who lent his Kindedo to this card.',
+        review: 'Estudiar en esta universidad me ha ayudado a crecer como persona y profesional, me ha dado las herramientas necesarias para poder desarrollarme en el ámbito laboral y personal.',
         author: 'Norma J. Johnston',
         clrClass: 'theme-bg-6',
         authorImg: img1,
@@ -22,7 +23,7 @@ const testimonial_data = [
     },
     {
         id: 2,
-        review: 'Your child will laugh, play and explore at Summer at MLS. From soccer, water play, art, music, theater and science, Shabbat celebrations, cooking.',
+        review: 'La diversidad de carrerras que tiene me ayudo a elegir la carrerra correcta, een la cual hoy en día me desempeño como profesional.',
         author: 'Mateo D. Daniel',
         clrClass: 'clr-1 theme-bg-7',
         authorImg: img2,
@@ -44,9 +45,11 @@ const HomeTwoTestimonial = () => {
                 <div className="row justify-content-center">
                     <div className="col-lg-8">
                         <div className="bd-section-title-wrapper z-index-1 p-relative text-center mb-55">
-                            <h2 className="bd-section-title mb-0">Parents Says</h2>
-                            <p>With the help of teachers and the environment as the third teacher, students<br /> have
-                                opportunities to confidently take risks.</p>
+                            <h2 className="bd-section-title mb-0">Testimonios Egresados</h2>
+                            <p>Algunos testimonios de nuestros queridos Egresados
+                                <br /> 
+                            Nos comparten su experiencia en UTL y como les ha ayudado en su vida profesional.
+                            </p>
                         </div>
                     </div>
                 </div>
