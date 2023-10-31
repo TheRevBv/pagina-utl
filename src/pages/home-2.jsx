@@ -29,7 +29,7 @@ export default function HomeTwo() {
       <HomeAbout/>
       <HomeTwoTeacher/>
       <HomeTwoTestimonial/>
-      {/*<HomeBanner/>*/}
+      <HomeBanner/>
       <HomeBlog blog_wrap="bd-blog-content-2" blog_date="bd-blog-date-2" />
       <HomeTwoGallary />
       <FooterTwo />
