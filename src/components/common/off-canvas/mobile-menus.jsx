@@ -47,7 +47,7 @@ const MobileMenus = () => {
                     navTitle === menu.title ? "mean-clicked" : ""
                   }`}
                   onClick={() => openMobileMenu(menu.title)}
-                  style={{ fontSize: "18px",cursor:'pointer' }}
+                  style={{ fontSize: "18px", cursor: "pointer" }}
                 >
                   <i className="fal fa-plus"></i>
                 </a>
@@ -84,7 +84,7 @@ const MobileMenus = () => {
                           subMenu === mega_m.title ? "mean-clicked" : ""
                         }`}
                         onClick={() => openSubMobileMenu(mega_m.title)}
-                        style={{ fontSize: "18px",cursor:'pointer' }}
+                        style={{ fontSize: "18px", cursor: "pointer" }}
                       >
                         <i className="fal fa-plus"></i>
                       </a>
@@ -96,7 +96,7 @@ const MobileMenus = () => {
                     navTitle === menu.title ? "mean-clicked" : ""
                   }`}
                   onClick={() => openMobileMenu(menu.title)}
-                  style={{ fontSize: "18px",cursor:'pointer' }}
+                  style={{ fontSize: "18px", cursor: "pointer" }}
                 >
                   <i className="fal fa-plus"></i>
                 </a>
@@ -133,7 +133,7 @@ const MobileMenus = () => {
                           subMenu === mega_m.title ? "mean-clicked" : ""
                         }`}
                         onClick={() => openSubMobileMenu(mega_m.title)}
-                        style={{ fontSize: "18px",cursor:'pointer' }}
+                        style={{ fontSize: "18px", cursor: "pointer" }}
                       >
                         <i className="fal fa-plus"></i>
                       </a>
@@ -145,7 +145,7 @@ const MobileMenus = () => {
                     navTitle === menu.title ? "mean-clicked" : ""
                   }`}
                   onClick={() => openMobileMenu(menu.title)}
-                  style={{ fontSize: "18px",cursor:'pointer' }}
+                  style={{ fontSize: "18px", cursor: "pointer" }}
                 >
                   <i className="fal fa-plus"></i>
                 </a>

@@ -32,7 +32,7 @@ const ContactForm = () => {
               onChange={handleChange}
               onBlur={handleBlur}
               type="text"
-              placeholder="Enter your name"
+              placeholder="Ingrese su nombre"
               id="name"
             />
             {touched.name && <ErrorMsg error={errors.name} />}
@@ -46,7 +46,7 @@ const ContactForm = () => {
               onChange={handleChange}
               onBlur={handleBlur}
               type="email"
-              placeholder="Enter your email"
+              placeholder="Ingrese su correo electrónico"
               id="email"
             />
             {touched.email && <ErrorMsg error={errors.email} />}
@@ -60,7 +60,7 @@ const ContactForm = () => {
               onChange={handleChange}
               onBlur={handleBlur}
               type="text"
-              placeholder="Mobile no"
+              placeholder="Ingrese su número de teléfono"
               id="phone"
             />
             {touched.phone && <ErrorMsg error={errors.phone} />}
@@ -84,7 +84,7 @@ const ContactForm = () => {
               onChange={handleChange}
               onBlur={handleBlur}
               id="msg"
-              placeholder="Your message"
+              placeholder="Ingrese su mensaje"
             ></textarea>
             {touched.msg && <ErrorMsg error={errors.msg} />}
           </div>
@@ -92,15 +92,17 @@ const ContactForm = () => {
         <div className="col-md-12">
           <div className="bd-contact-agree d-flex align-items-center mb-20">
             <input className="" type="checkbox" id="check-agree" />
-            <label className="check-label" htmlFor="check-agree">Save Data for Next Comment</label>
+            <label className="check-label" htmlFor="check-agree">
+              Guardar mis datos para la próxima vez.
+            </label>
           </div>
         </div>
         <div className="col-md-5">
           <div className="bd-contact-agree-btn">
             <button type="submit" className="bd-btn">
               <span className="bd-btn-inner">
-                <span className="bd-btn-normal">Send now</span>
-                <span className="bd-btn-hover">Send now</span>
+                <span className="bd-btn-normal">Enviar ahora</span>
+                <span className="bd-btn-hover">Enviar ahora</span>
               </span>
             </button>
           </div>
