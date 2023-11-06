@@ -2,7 +2,7 @@ import React from 'react';
 import Image from "next/image";
 import line from "@assets/img/shape/tripple-line.png";
 
-const ProgramPromotion = ({title,subtitle, desc,img,icon1,icon2,link1,link2,desc2}) => {
+const ProgramPromotion = ({title,subtitle, desc,img,icon1,icon2,link1,link2,desc2,iconImg1,iconImg2}) => {
     return (
         <section className="bd-promotion-area pt-120 pb-60 fix">
             <div className="container">
@@ -33,13 +33,13 @@ const ProgramPromotion = ({title,subtitle, desc,img,icon1,icon2,link1,link2,desc
                                 <ul>
                                     <li>
                                         <div className="bd-promotion-icon">
-                                            <i className="flaticon-clean theme-bg-2"></i>
+                                            <i className={iconImg1}></i>
                                         </div>
                                         <span>{icon2}</span>
                                     </li>
                                     <li>
                                         <div className="bd-promotion-icon">
-                                            <i className="flaticon-hand-wash theme-bg"></i>
+                                            <i className={iconImg2}></i>
                                         </div>
                                         <span>{icon1}</span>
                                     </li>

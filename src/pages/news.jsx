@@ -36,7 +36,7 @@ export default function NewsSidebar() {
       <Breadcrumb title="Soy egresado" subTitle="Soy Egresado" />
       {/* <NewsPageMain /> */}
       <ProgramPromotion title={"Educacion continua"} subtitle={"Objetivo"} desc={"Ofrecer servicios de capacitación en diferentes modalidades como cursos, talleres y diplomados, desarrollados en colaboración con docentes de las diferentes direcciones académicas, dirigidos tanto a egresados(as) y demás integrantes de la Universidad, así como al público en general, con el propósito de apoyarles en su actualización profesional."}
-      img={promotion} icon1={"Capacitacion"} icon2={"Cursos"}/>
+      img={promotion} icon1={"Capacitacion"} icon2={"Cursos"} iconImg1={"fa fa-graduation-cap theme-bg"} iconImg2={"fa fa-book theme-bg"} />
       <HomeNewsletter title={"Contactanos"} subTitle={"Para más información..."} dataContacto={dataContacto} telefono={"477 710 00 20 Ext. 418, 425 y 430"} />
       <Footer/>
     </Wrapper>
