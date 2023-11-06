@@ -236,13 +236,15 @@ const menu_data = [
   {
     id: 6,
     hasDropdown: true,
-    title: "Noticias",
+    title: "Soy egresado",
     link: "/news",
     submenus: [
-      { title: "News Default", link: "/news" },
-      { title: "News Sidebar", link: "/news-sidebar" },
-      { title: "News Classic", link: "/news-classic" },
-      { title: "News Details", link: "/news-details" },
+      { title: "Bolsa de trabajo", link: "/bolsa-de-trabajo" },
+      { title: "Emprendimiento", link: "/news-sidebar" },
+      // { title: "Educacion continua", link: "/news-classic" },
+      // { title: "¿Quieres laboral en la utl?", link: "/news-details" },
+      { title: "¿Quieres laborar en la utl?", link: "https://sito.utleon.edu.mx/jsp/reclutamiento/muestra_convocatoria_general.jsp" },
+
     ],
   },
   {

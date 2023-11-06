@@ -79,14 +79,12 @@ const HomePromotion = ({ promoImg, promo_space }) => {
               >
                 <div className="bd-section-title-wrapper mb-35">
                   <h2 className="bd-section-title mb-10">
-                    Formamos Grandes Profesionales
+                    Historia
                   </h2>
                   <p>
                     {" "}
-                    Ser valiente no siempre es un gran gesto, a veces solo
-                    significa intentarlo. esa pregunta difícil, ofrecer una
-                    respuesta en una lección cuando estás simplemente realmente
-                    intentando algo nuevo.
+                    La Universidad Tecnológica de León inició su funcionamiento el 26 de septiembre de 1995, con la inauguración de cursos efectuada por el C. Vicente Fox Quesada, Gobernador Constitucional del Estado de Guanajuato, ante la presencia de altas personalidades del gobierno federal, estatal, municipal y la comunidad universitaria.
+Desde el 25 de septiembre de 1995 y hasta la fecha, formamos ciudadanos y ciudadanas de bien, con pensamiento global y acción local, con innovación, profundos valores humanos y universales y sobre todo, brindando educación tecnológica y de calidad, orientada a la industria 4.0 y la mente-factura”.
                   </p>
                 </div>
                 {!promo_space && (
@@ -108,9 +106,9 @@ const HomePromotion = ({ promoImg, promo_space }) => {
                 )}
                 <div className="bd-promotion-list mb-50">
                   <ul>
-                    <li>Cada Alumno es parte de la comunidad UTL </li>
+                    <li>SOMOS COMUNIDAD UTL</li>
                     <li>
-                      Profesores con un gran nivel academico y calificados
+                    Somos una institución tecnológica con sentido humano 
                     </li>
                   </ul>
                 </div>
@@ -118,8 +116,8 @@ const HomePromotion = ({ promoImg, promo_space }) => {
                   <div className="bd-promotion-btn">
                     <Link href="/programs" className="bd-btn">
                       <span className="bd-btn-inner">
-                        <span className="bd-btn-normal">Herramientas</span>
-                        <span className="bd-btn-hover">Herramientas</span>
+                        <span className="bd-btn-normal">Programas</span>
+                        <span className="bd-btn-hover">Programas</span>
                       </span>
                     </Link>
                   </div>
@@ -129,7 +127,7 @@ const HomePromotion = ({ promoImg, promo_space }) => {
                       className="popup-video"
                       onClick={() => setIsVideoOpen(true)}
                     >
-                      <i className="flaticon-play-button"></i> Promotional Video
+                      <i className="flaticon-play-button"></i> Video de presentación UTL
                     </button>
                   </div>
                 </div>
@@ -143,7 +141,7 @@ const HomePromotion = ({ promoImg, promo_space }) => {
       <VideoModal
         isVideoOpen={isVideoOpen}
         setIsVideoOpen={setIsVideoOpen}
-        videoId={"go7QYaQR494"}
+        videoId={"SkyEK0HctdI"}
       />
       {/* video modal end */}
     </>

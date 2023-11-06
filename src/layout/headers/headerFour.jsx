@@ -57,14 +57,14 @@ const HeaderFour = () => {
                         </p>
                       </div>
                     </div>
-                    <div className="bd-header-btn d-none d-xl-block">
+                    {/* <div className="bd-header-btn d-none d-xl-block">
                       <Link href="/contact" className="bd-btn">
                         <span className="bd-btn-inner">
                           <span className="bd-btn-normal">Herramientas</span>
                           <span className="bd-btn-hover">Herramientas</span>
                         </span>
                       </Link>
-                    </div>
+                    </div> */}
                     <div className="header-hamburger">
                       <button
                         type="button"

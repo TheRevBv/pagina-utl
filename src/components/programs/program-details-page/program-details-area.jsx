@@ -16,7 +16,7 @@ import MoreProgrammers from '@components/classes/class-details-page/more-program
 const ProgramDetailsArea = ({item}) => {
     return (
         <>
-            <Breadcrumb title="Program Details" subTitle="Program Details" />
+            {/* <Breadcrumb title="Program Details" subTitle="Program Details" /> */}
 
             <section className="bd-program-details-widget pt-120 pb-70">
                 <div className="container">
