@@ -4,56 +4,47 @@ import Image from "next/image";
 import bg from "@assets/img/bg/breadcrumb-bg.jpg";
 import line_1 from "@assets/img/shape/white-curved-line.png";
 import line_2 from "@assets/img/shape/curved-line-2.png";
+import CarrouselTwo from "@components/slider/carrousel-two";
+import shape from "@assets/img/shape/curved-line-2.png";
+import bg_1 from "@assets/img/hero/img-Alumnos.jpg";
+import bg_2 from "@assets/img/hero/utl-Patio2.png";
+import bg_3 from "@assets/img/hero/img-Programa.jpeg";
+
+const hero_data = [
+  {
+    id: 1,
+    shape: shape,
+    bg: bg_1,
+    subTitle: "Variedad de carreras y programas académicos",
+    title: "Encuentra tu vocación",
+    btn: "Admisiones abiertas",
+  },
+  {
+    id: 2,
+    shape: shape,
+    bg: bg_2,
+    subTitle: "Instalaciones de primer nivel y profesores de calidad",
+    title: "Excelentes instalaciones",
+    btn: "Ver más",
+  },
+  {
+    id: 3,
+    shape: shape,
+    bg: bg_3,
+    subTitle:
+      "Programas de intercambio y oportunidades de crecimiento en varios paises",
+    title: "Oportunidades para tu futuro",
+    btn: "Ver más",
+  },
+];
 
 const Breadcrumb = ({ title, subTitle }) => {
   return (
-    <section className="bd-breadcrumb-area p-relative fix theme-bg">
-      <div
-        className="bd-breadcrumb-bg"
-        style={{ backgroundImage: `url(${bg.src})` }}
-      ></div>
-      <div className="bd-breadcrumb-wrapper mb-60 p-relative">
-        <div className="container">
-          <div className="bd-breadcrumb-shape d-none d-sm-block p-relative">
-            <div className="bd-breadcrumb-shape-1">
-              <Image
-                src={line_2}
-                style={{ width: "100%", height: "100%" }}
-                alt="img not found"
-              />
-            </div>
-            <div className="bd-breadcrumb-shape-2">
-              <Image
-                src={line_1}
-                style={{ width: "100%", height: "100%" }}
-                alt="img not found"
-              />
-            </div>
-          </div>
-          <div className="row justify-content-center">
-            <div className="col-xl-10">
-              <div className="bd-breadcrumb d-flex align-items-center justify-content-center">
-                <div className="bd-breadcrumb-content text-center">
-                  <h1 className="bd-breadcrumb-title">{title}</h1>
-                  <div className="bd-breadcrumb-list">
-                    <span>
-                      <Link href="/">
-                        <i className="flaticon-hut"></i>UTL
-                      </Link>
-                    </span>
-                    <span>{subTitle}</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="bd-wave-wrapper bd-wave-wrapper-3">
-        <div className="bd-wave bd-wave-3"></div>
-        <div className="bd-wave bd-wave-3"></div>
-      </div>
-    </section>
+    <>
+      <section className="bd-breadcrumb-area p-relative fix theme-bg">
+        <CarrouselTwo data={hero_data} />
+      </section>
+    </>
   );
 };
 
