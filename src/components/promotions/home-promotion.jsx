@@ -79,7 +79,7 @@ const HomePromotion = ({ promoImg, promo_space }) => {
               >
                 <div className="bd-section-title-wrapper mb-35">
                   <h2 className="bd-section-title mb-10">
-                    Formamos Grandes Profecionales
+                    Formamos Grandes Profesionales
                   </h2>
                   <p>
                     {" "}
