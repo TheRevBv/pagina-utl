@@ -7,7 +7,7 @@ import img2 from "@assets/img/testimonials/2.png";
 const testimonial_data = [
     {
         id: 1,
-        review: 'Happy Christmas to the whole Kindedo from everyone at Monkton. A big thank you to Kindedo pupil Will who lent his Kindedo to this card.',
+        review: 'Actualmente soy un profesional en el área de la informática, gracias a la UTL, que me brindo las herramientas necesarias para poder desarrollarme en el ámbito laboral.',
         author: 'Norma J. Johnston',
         clrClass: 'theme-bg-6',
         authorImg: img1,
@@ -22,7 +22,7 @@ const testimonial_data = [
     },
     {
         id: 2,
-        review: 'Your child will laugh, play and explore at Summer at MLS. From soccer, water play, art, music, theater and science, Shabbat celebrations, cooking.',
+        review: 'Gracias a la UTL, pude cumplir mi sueño de ser un profesional en el área de mercadotecnia y ventas, y ahora me encuentro trabajando en una empresa reconocida en el país.',
         author: 'Mateo D. Daniel',
         clrClass: 'clr-1 theme-bg-7',
         authorImg: img2,
@@ -44,9 +44,11 @@ const HomeTwoTestimonial = () => {
                 <div className="row justify-content-center">
                     <div className="col-lg-8">
                         <div className="bd-section-title-wrapper z-index-1 p-relative text-center mb-55">
-                            <h2 className="bd-section-title mb-0">Parents Says</h2>
-                            <p>With the help of teachers and the environment as the third teacher, students<br /> have
-                                opportunities to confidently take risks.</p>
+                            <h2 className="bd-section-title mb-0">Testimonios de ExAlumnos</h2>
+                            <p>
+                                Conoce la experiencia de los exalumnos de la UTL,
+                                <br />y como la UTL los ayudo a cumplir sus metas
+                            </p>
                         </div>
                     </div>
                 </div>

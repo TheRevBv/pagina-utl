@@ -15,8 +15,11 @@ const HomeTwoTeacher = () => {
                         <div className="col-lg-8">
                             <div className="bd-section-title-wrapper z-index-1 p-relative is-white text-center mb-55 wow fadeInUp"
                                 data-wow-duration="1s" data-wow-delay=".2s">
-                                <h2 className="bd-section-title mb-0">Our Best Teachers</h2>
-                                <p>With the help of teachers and the environment as the third teacher, students<br /> have opportunities to confidently take risks.</p>
+                                <h2 className="bd-section-title mb-0">Nuestros directivos y asesores de carrera</h2>
+                                <p>
+                                    Conoce a los directivos y asesores de carrera de la UTL,
+                                    <br />y como ellos te ayudaran a cumplir tus metas
+                                </p>
                             </div>
                         </div>
                     </div>
