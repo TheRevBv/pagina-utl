@@ -5,7 +5,8 @@ import HomeTwoClass from "@components/classes/home-two-class";
 import HomePromotion from "@components/promotions/home-promotion";
 //import promoImgTwo from "@assets/img/promotion/2.png";
 import proImgEgresados from "@assets/img/utl/egresados.jpg";
-import HomeTwoProgram from "@components/programs/home-two-program";
+// import HomeTwoProgram from "@components/programs/home-two-program";
+// import SoyAspiranteProgram from "@components/soy-aspirante/home-soy-aspirante";
 import HomeAbout from "@components/abouts/home-about";
 import HomeBanner from "@components/banners/home-banner";
 import HomeTwoTeacher from "@components/teachers/home-two-teacher";
@@ -23,9 +24,8 @@ export default function HomeTwo() {
       <HomeTwoHero />
       <HomeTwoClass />
       <HomePromotion promoImg={proImgEgresados} />
-      {
-        //<HomeTwoProgram />
-      }
+      {/* <SoyAspiranteProgram /> */}
+      {/* <HomeTwoProgram /> */}
       <HomeAbout />
       <HomeTwoTeacher />
       <HomeTwoTestimonial />

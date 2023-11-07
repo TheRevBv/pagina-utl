@@ -1,13 +1,13 @@
 const menu_data = [
   {
     id: 1,
-    hasDropdown: true,
+    hasDropdown: false,
     title: "Inicio",
     link: "/",
     submenus: [
-      { title: "Home Style 1", link: "/" },
-      { title: "Home Style 2", link: "/home-2" },
-      { title: "Home Style 3", link: "/home-3" },
+      { title: "Zona UTL", link: "/" },
+      // { title: "Home Style 2", link: "/home-2" },
+      // { title: "Home Style 3", link: "/home-3" },
     ],
   },
   {
@@ -16,39 +16,6 @@ const menu_data = [
     title: "Sobre Nosotros",
     link: "/about",
   },
-  /*
-  {
-    id: 3,
-    title: 'Programs',
-    megaMenuTwo: true,
-    megaMenu: false,
-    link: '/programs',
-    mega_menus_two: [
-      {
-        title: 'List 1', link: '#',
-        submenus: [
-          {title:'Settling',link:'/program-details', count:'01', age:'4-5 Yrs'},
-          {title:'Nuesery Group',link:'/program-details', count:'02', age:'3-4 Yrs'},
-          {title:'Play Group',link:'/program-details', count:'03', age:'2-3 Yrs'},
-        ]
-      },
-      {
-        title: 'List 2', link: '#',
-        submenus: [
-          {title:'Nuesery',link:'/program-details', count:'04', age:'3-4 Yrs'},
-          {title:'Junior Kg',link:'/program-details', count:'05', age:'4-5 Yrs'},
-          {title:'Senior Kg',link:'/program-details', count:'06', age:'5-6 Yrs'},
-        ]
-      },
-      {
-        title: 'List 3', link: '#',
-        submenus: [
-          {programImg: true, title:'Join New Program',link:'/programs', img:'/assets/img/logo/mega-menu-1.png', btn:'View More'},
-        ]
-      }
-    ]
-  },
-  */
   {
     id: 3,
     title: "Soy Aspirante",
@@ -57,83 +24,104 @@ const menu_data = [
     link: "/soy-aspirante",
     mega_menus_two: [
       {
-        title: "List 1",
+        title: "Conoce la UTL",
         link: "#",
         submenus: [
           {
-            title: "Settling",
-            link: "/soy-aspirante-details",
-            count: "01",
-            age: "4-5 Yrs",
-          },
-          {
-            title: "Nuesery Group",
-            link: "/program-details",
+            title: "Quienes somos",
+            link: "/quienes-somos",
             count: "02",
-            age: "3-4 Yrs",
+            // age: "4-5 Yrs",
           },
           {
-            title: "Play Group",
-            link: "/program-details",
+            title: "Modelo educativo",
+            link: "/modelo-educativo",
             count: "03",
-            age: "2-3 Yrs",
+            // age: "3-4 Yrs",
+          },
+          {
+            title: "Conoce nuestras becas",
+            link: "/conoce-nuestras-becas",
+            count: "04",
+            // age: "2-3 Yrs",
           },
         ],
       },
       {
-        title: "List 2",
+        title: "Oferta educativa",
         link: "#",
         submenus: [
           {
-            title: "Nuesery",
-            link: "/program-details",
-            count: "04",
-            age: "3-4 Yrs",
-          },
-          {
-            title: "Junior Kg",
-            link: "/program-details",
+            title: "Carreras TSU",
+            link: "/tsu",
             count: "05",
-            age: "4-5 Yrs",
+            // age: "3-4 Yrs",
           },
           {
-            title: "Senior Kg",
-            link: "/program-details",
+            title: "Carreras ING/LIC",
+            link: "/ingenierias",
             count: "06",
-            age: "5-6 Yrs",
+            // age: "4-5 Yrs",
           },
         ],
       },
       {
-        title: "List 3",
+        title: "¿Cómo ingreso a estudiar en la UTL?",
+        link: "#",
+        submenus: [
+          {
+            title: "Admisiones TSU",
+            link: "/admisiones-tsu",
+            count: "05",
+            // age: "3-4 Yrs",
+          },
+          {
+            title: "Admisiones ING/LIC",
+            link: "/admisiones-ingenierias",
+            count: "06",
+            // age: "4-5 Yrs",
+          },
+        ],
+      },
+      {
+        title: "Contáctanos",
+        link: "#",
+        submenus: [
+          {
+            title: "Solicta información",
+            link: "/solicita-informacion",
+            count: "05",
+            // age: "3-4 Yrs",
+          },
+          {
+            title: "Oficina Virtual Escolares",
+            link: "/oficina-virtual-escolares",
+            count: "05",
+            // age: "3-4 Yrs",
+          },
+          {
+            title: "Buzón institucional",
+            link: "/buzon-institucional",
+            count: "05",
+            // age: "3-4 Yrs",
+          },
+        ],
+      },
+      {
+        title: "Nuestra rectora",
         link: "#",
         submenus: [
           {
             programImg: true,
-            title: "Join New Program",
-            link: "/programs",
+            title: "Nuestra rectora",
+            link: "/mensajes-rectora",
             img: "/assets/img/logo/mega-menu-1.png",
-            btn: "View More",
+            btn: "Ver más",
           },
         ],
       },
     ],
   },
-  /*
-  {
-    id: 4,
-    hasDropdown: true,
-    title: "Shop",
-    link: "/shop",
-    submenus: [
-      { title: "Shop Main", link: "/shop" },
-      { title: "Shop Details", link: "/shop-details" },
-      { title: "Wishlist", link: "/wishlist" },
-      { title: "Cart", link: "/cart" },
-      { title: "Checkout", link: "/checkout" },
-    ],
-  },
-  */
   {
     id: 4,
     hasDropdown: true,
@@ -147,50 +135,6 @@ const menu_data = [
       { title: "Checkout", link: "/checkout" },
     ],
   },
-  /* 
-  {
-    id: 5,
-    title: "Pages",
-    megaMenu: true,
-    link: "#",
-    pages: true,
-    mega_menus: [
-      {
-        title: "Page Layout 1",
-        link: "#",
-        submenus: [
-          { title: "Program", link: "/programs" },
-          { title: "Program Details", link: "/program-details" },
-          { title: "Teacher", link: "/teachers" },
-          { title: "Teacher Details", link: "/teacher-details" },
-          { title: "Time Table", link: "/time-tables" },
-        ],
-      },
-      {
-        title: "Page Layout 2",
-        link: "#",
-        submenus: [
-          { title: "Testimonial", link: "/testimonials" },
-          { title: "Gallery", link: "/gallery" },
-          { title: "FAQ", link: "/faq" },
-          { title: "Class", link: "/classes" },
-          { title: "Class Details", link: "/class-details" },
-        ],
-      },
-      {
-        title: "Page Layout 3",
-        link: "#",
-        submenus: [
-          { title: "About", link: "/about" },
-          { title: "Contact", link: "/contact" },
-          { title: "Login", link: "/login" },
-          { title: "Register", link: "/register" },
-          { title: "Error Page", link: "/404" },
-        ],
-      },
-    ],
-  }, 
-  */
   {
     id: 5,
     title: "Soy Empresario",
@@ -199,36 +143,57 @@ const menu_data = [
     pages: true,
     mega_menus: [
       {
-        title: "Page Layout 1",
+        title: "Nuestra rectora",
         link: "#",
         submenus: [
-          { title: "Program", link: "/programs" },
-          { title: "Program Details", link: "/program-details" },
-          { title: "Teacher", link: "/teachers" },
-          { title: "Teacher Details", link: "/teacher-details" },
-          { title: "Time Table", link: "/time-tables" },
+          { title: "Mensaje de la rectora", link: "/mensaje-rectora" },
         ],
       },
       {
-        title: "Page Layout 2",
+        title: "Conoce la UTL",
         link: "#",
         submenus: [
-          { title: "Testimonial", link: "/testimonials" },
-          { title: "Gallery", link: "/gallery" },
-          { title: "FAQ", link: "/faq" },
-          { title: "Class", link: "/classes" },
-          { title: "Class Details", link: "/class-details" },
+          { title: "Historia", link: "/historia" },
+          { title: "Filosofía", link: "/filosofia" },
+          { title: "Ejes estratégicos", link: "/ejes-estrategicos" },
+          { title: "Equipo directivo UTL", link: "/equipo-directivo-utl" },
+          { title: "Planteles", link: "/planteles" },
         ],
       },
       {
-        title: "Page Layout 3",
+        title: "Conoce nuestros programas educativos",
         link: "#",
         submenus: [
-          { title: "About", link: "/about" },
-          { title: "Contact", link: "/contact" },
-          { title: "Login", link: "/login" },
-          { title: "Register", link: "/register" },
-          { title: "Error Page", link: "/404" },
+          { title: "TSU", link: "/tsu" },
+          { title: "Ingenierías", link: "/ingenierias" },
+        ],
+      },
+      {
+        title: "Vinculación Empresarial",
+        link: "#",
+        submenus: [
+          { title: "Estadías Empresariales", link: "/estadias-empresariales" },
+          { title: "Bolsa de trabajo", link: "/bolsa-de-trabajo" },
+          { title: "Analisis situacional de trabajo (AST)", link: "/ast" },
+          { title: "Educación dual", link: "/educacion-dual" },
+        ],
+      },
+      {
+        title: "Servicios a la industria",
+        link: "#",
+        submenus: [
+          { title: "Capacitación", link: "/capacitacion" },
+          { title: "Educación continua", link: "/educacion-continua" },
+          { title: "Asesorias", link: "/asesorias" },
+          { title: "Servicios Tecnológicos", link: "/servicios-tecnologicos" },
+          { title: "Desarrollo de software (INNXWARE)", link: "/innxware" },
+        ],
+      },
+      {
+        title: "Contactanos",
+        link: "#",
+        submenus: [
+          { title: "Buzón institucional", link: "/buzon-institucional" },
         ],
       },
     ],

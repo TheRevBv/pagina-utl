@@ -116,4 +116,4 @@ const SoyAspiranteProgram = () => {
   );
 };
 
-export default HomeTwoProgram;
+export default SoyAspiranteProgram;

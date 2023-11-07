@@ -8,13 +8,20 @@ import SoyAspirantePageMain from "@components/soy-aspirante/soy-aspirante-page-m
 import AboutTestimonial from "@components/testimonials/about-testimonial";
 import ProgramPromotion from "@components/promotions/program-promotion";
 import HeaderFour from "@layout/headers/headerFour";
+import sliders_data from "@data/sliders-data";
 
 const SoyAspirantePage = () => {
+  const { aspirante } = sliders_data;
   return (
     <Wrapper>
       <SEO pageTitle={"Soy Aspirante"} />
       <HeaderFour />
-      <Breadcrumb title="Soy Aspirante" subTitle="Soy Aspirante" />
+      <Breadcrumb
+        title="Soy Aspirante"
+        subTitle="Soy Aspirante"
+        msgTitle={aspirante[0].title}
+        msgDescripcion={aspirante[0].description}
+      />
       <SoyAspirantePageMain />
       {/* <ProgramPageMain /> */}
       <AboutTestimonial />
