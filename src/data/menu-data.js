@@ -214,6 +214,71 @@ const menu_data = [
   },
   {
     id: 7,
+    title: "Soy Administrativo",
+    megaMenu: true,
+    link: "/mensajeAdministrativo",
+    pages: true,
+    mega_menus: [
+      {
+        title: "Inicio",
+        link: "#",
+        submenus: [
+          { title: "Mensaje de la rectora", link: "/mensajeAdministrativo" },
+            { title: "Salud Integral", link: "/saludIntegral" },
+        ],
+      },
+      {
+        title: "Recursos para la gestión administrativa",
+       link: "#",
+       submenus: [
+         { title: "SITO", link: "https://sito.utleon.edu.mx/" },
+         { title: "SGI", link: "http://sgi.utleon.edu.mx/" },
+         { title: "Correo Institucional", link: "https://www.office.com/?auth=2" },
+         { title: "Calendario Escolar", link: "https://www.utleon.edu.mx/resource/img/CALENDARIO%20LE%C3%93N.jpg" },
+         { title: "Difusion e Imagen Intitucional", link: "/imagenInstitucional" },
+         { title: "Mesa de Ayuda DSI", link: "http://zammad.utleon.edu.mx/#login" },
+       ],
+      },
+      {
+        title: "Desarrollo Humano y Organizacional",
+       link: "#",
+       submenus: [
+         { title: "Reclutamiento y Seleccion", link: "https://sito.utleon.edu.mx/jsp/reclutamiento/muestra_convocatoria_general.jsp" },
+         { title: "Capacitacion", link: "/capacitacion" },
+         { title: "Entrega-Recepcion", link: "/entrega-Recepcion" },
+         { title: "Resultados de Medicion", link: "/resultados-Medicion" },
+       ],
+      },
+      {
+        title: "Organos Colegiados",
+        link: "#",
+        submenus: [
+          { title: "Ética y Prevencion de Conflictos de Interes", link: "/EticayPrevencionConflicto" },
+          { title: "Comite de Igualdad Laboral y no Discriminacion", link: "/comiteIgualdad" },
+          { title: "Sub-Comite de Atenciaon a Presuntos Caso de Violencia, Acoso y Hostigamiento", link: "/atencionCasos" },
+        ],
+      },
+      {
+        title: "Transparencia",
+       link: "#",
+       submenus: [
+         { title: "Finanzas", link: "/finanzas" },
+         { title: "Contraloria Social", link: "/contraloria" },
+         { title: "Obligaciones de Transparencia", link: "https://transparencia.guanajuato.gob.mx/transparencia/informacion_publica_pordependencia.php?dependencia=52" },
+       ],
+      },
+      {
+        title: "Protocolo de Seguridad",
+       link: "#",
+       submenus: [
+         { title: "Protocolo de Seguridad", link: "/protocoloSeguridad" },
+         { title: "Protocolo de Emergencia", link: "https://www.utleon.edu.mx/public_html/seguridad-institucional/protocolo-de-emergencia/img_protocolo_de_emergencia.jpg" },
+       ],
+      },
+    ],
+  },
+  {
+    id: 8,
     hasDropdown: false,
     title: "Contactanos",
     link: "/contact",
