@@ -5,31 +5,31 @@ import shape from "@assets/img/shape/wave-section-break.png";
 const features = [
     {
         id: 1,
-        title: 'Exclusive',
-        teaser: 'When it comes to success in the classroom.',
+        title: 'Mision',
+        teaser: 'Somos una universidad reconocida por su calidad internacional, sus aportaciones al desarrollo de la tecnología y al bienestar de la sociedad.',
         iconStyle: 'icon-1',
-        icon: 'flaticon-exclusive',
+        icon: 'fa-solid fa-bullseye',
     },
     {
         id: 2,
-        title: 'Highest Safety',
-        teaser: 'Safety matters just as much as the academics.',
+        title: 'Vision',
+        teaser: 'Formar ciudadanos/as del mundo con educación tecnológica de calidad a través de la docencia, la investigación aplicada, la difusión del conocimiento y la vinculación, que contribuyan a la innovación y al desarrollo sustentable.',
         iconStyle: 'icon-2',
-        icon: 'flaticon-humanitarian-help',
+        icon: 'fa-solid fa-eye',
     },
     {
         id: 3,
-        title: 'Hassle Free',
-        teaser: 'Consistent with Friend ship’s focus on kindedo.',
+        title: 'Valores',
+        teaser: 'Dignidad, responsabilidad, solidaridad, compromiso, responsabilidad social.',
         iconStyle: 'icon-3',
-        icon: 'flaticon-like-1',
+        icon: 'fa-solid fa-seedling',
     },
     {
         id: 4,
-        title: 'Free Shipping',
-        teaser: 'Guided by teachers who are veste student success.',
+        title: 'Filosofia institucional',
+        teaser: 'Es el valor intrínseco de las personas, así como de los objetos y situaciones en cuanto contribuyen a la realización personal. Tomar decisiones propias y expresar ideales aceptando las diferencias con el resto de las personas        ',
         iconStyle: 'icon-4',
-        icon: 'flaticon-delivery',
+        icon: 'fa-solid fa-scale-balanced',
     }
 ]
 
@@ -46,8 +46,8 @@ const HomeThreeFeature = ({wave}) => {
                     <div className="col-lg-8 col-md-10">
                         <div className="bd-section-title-wrapper is-white text-center mb-55 wow fadeInUp" data-wow-duration="1s"
                             data-wow-delay=".3s">
-                            <h2 className="bd-section-title mb-0">Why Kindedo Best</h2>
-                            <p>View classes by age, program, or subject. Check out upcoming camps<br /> and special events too!
+                            <h2 className="bd-section-title mb-0">Somos Comunidad UTL</h2>
+                            <p>Somos una institución tecnológica con sentido humano<br /> Orgullosamente UTL!
                             </p>
                         </div>
                     </div>

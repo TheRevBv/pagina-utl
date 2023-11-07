@@ -4,7 +4,7 @@ import Footer from "@layout/footers/footer";
 import HomeNewsletter from "@components/newsletter/home-newsletter";
 import Breadcrumb from "@components/common/breadcrumb/breadcrumb";
 import HomePromotion from "@components/promotions/home-promotion";
-import promoImgTwo from "@assets/img/promotion/2.png";
+import promoImgTwo from "@assets/img/promotion/utl_historia.png";
 import HomeThreeFeature from "@components/features/home-three-feature";
 import AboutPromotion from "@components/promotions/about-promotion";
 import AboutTestimonial from "@components/testimonials/about-testimonial";
@@ -16,16 +16,16 @@ import HeaderFour from "@layout/headers/headerFour";
 export default function About() {
   return (
     <Wrapper>
-      <SEO pageTitle={'About'} />
+      <SEO pageTitle={'Sobre nosotros'} />
       <HeaderFour />
-      <Breadcrumb title="About" subTitle="About" />
+      <Breadcrumb title="Sobre nosotros" subTitle="Somos UTL" />
       <HomePromotion promo_space="pt-120 pb-60" promoImg={promoImgTwo} />
       <HomeThreeFeature wave={true} />
       <AboutPromotion />
-      <AboutTestimonial />
-      <HomeTeacher />
+      {/* <AboutTestimonial /> */}
+      {/* <HomeTeacher /> */}
       <AboutFact />
-      <HomeNewsletter />
+      {/* <HomeNewsletter /> */}
       <Footer/>
     </Wrapper>
   )

@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from "next/image";
-import promotion from "@assets/img/promotion/1.png";
+import promotion from "@assets/img/promotion/estructura.jpg";
 import line from "@assets/img/shape/tripple-line.png";
 
 const AboutPromotion = () => {
@@ -11,9 +11,17 @@ const AboutPromotion = () => {
                     <div className="col-xl-6 col-lg-6">
                         <div className="bd-promotion bd-promotion-2 mb-60 wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">
                             <div className="bd-section-title-wrapper mb-35">
-                                <h2 className="bd-section-title mb-10">Friendly atmosphere for all kids</h2>
-                                <span className="mb-10 d-inline-block">A Swiss follower of Jean-Jacques Rousseau’s belief in the inherent goodness of children helper.</span>
-                                <p>The kindergarten was developed in the nineteenth century by Friedrich Froebel, a German reformer and educator. He built upon the ideas of Johann Heinrich Pestalozzi.</p>
+                                <h2 className="bd-section-title mb-10">Consejo Directivo</h2>
+                                <span className="mb-10 d-inline-block">Es el máximo órgano de gobierno de la universidad y en conjunto con la Rectoría, son los responsables de su dirección y administración.</span>
+                                <p>El Consejo Directivo está integrado de la siguiente manera:
+
+I.- Tres representantes del Gobierno del Estado de Guanajuato, que serán nombrados por el Gobernador y lo presidirá quien él designe;
+
+II.- Tres representantes del Gobierno Federal, designados por el Secretario de Educación Pública;
+
+III.- Un representante del Gobierno Municipal designado por el H. Ayuntamiento, donde se ubique la universidad;
+
+IV.- Dos representantes del Sector Productivo, a invitación del Ejecutivo Estatal.</p>
                             </div>
                             <div className="bd-promotion-list-2">
                                 <ul>
@@ -21,13 +29,13 @@ const AboutPromotion = () => {
                                         <div className="bd-promotion-icon">
                                             <i className="flaticon-exclusive theme-bg-2"></i>
                                         </div>
-                                        <span>Full Day Sessions</span>
+                                        <span>Intitucion reconocida</span>
                                     </li>
                                     <li>
                                         <div className="bd-promotion-icon">
                                             <i className="flaticon-whiteboard theme-bg"></i>
                                         </div>
-                                        <span>Varied Classes</span>
+                                        <span>Programas actualizados</span>
                                     </li>
                                 </ul>
                             </div>
@@ -36,7 +44,7 @@ const AboutPromotion = () => {
                     <div className="col-xl-6 col-lg-6">
                         <div className="bd-promotion-thumb-wrapper mb-60 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
                             <div className="bd-promotion-thumb">
-                                <div className="bd-promotion-thumb-mask p-relative">
+                                <div className="">
                                     <Image src={promotion} style={{ width: "100%", height: "100%" }} alt="img not found" />
                                     <div className="panel-2 wow"></div>
                                 </div>

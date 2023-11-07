@@ -1,9 +1,8 @@
 import React from 'react';
 import Image from "next/image";
-import promotion from "@assets/img/promotion/3.jpg";
 import line from "@assets/img/shape/tripple-line.png";
 
-const ProgramPromotion = () => {
+const ProgramPromotion = ({title,subtitle, desc,img,icon1,icon2,link1,link2,desc2,iconImg1,iconImg2}) => {
     return (
         <section className="bd-promotion-area pt-120 pb-60 fix">
             <div className="container">
@@ -12,28 +11,37 @@ const ProgramPromotion = () => {
                         <div className="bd-promotion bd-promotion-2 mb-60 wow fadeInLeft" data-wow-duration="1s"
                             data-wow-delay=".3s">
                             <div className="bd-section-title-wrapper mb-35">
-                                <h2 className="bd-section-title mb-10">Health and Safety</h2>
+                                <h2 className="bd-section-title mb-10">{title}</h2>
+                                
+
                                 <span className="mb-10 d-inline-block">
-                                    Some states and countries implement mandatory early childhood education
-                                    such rules, many preschool.
+                                    {subtitle}
                                 </span>
-                                <p> Being brave isn’t always a grand gesture sometimes it just means having a go attempting that
-                                    difficult question, offering an answer in a lesson when you’re simply really trying new.
-                                </p>
+                                <p>
+                                    {desc}
+                                    {link1 ? (
+  <a href={link1} className='link'>AQUÍ</a>
+) : null}
+             {link2 ? (
+                <><br /><a href={link2} className='link'>Ir A Sito</a></>
+) : null}
+
+                                                        </p>
+                   
                             </div>
                             <div className="bd-promotion-list-2">
                                 <ul>
                                     <li>
                                         <div className="bd-promotion-icon">
-                                            <i className="flaticon-clean theme-bg-2"></i>
+                                            <i className={iconImg1}></i>
                                         </div>
-                                        <span>Nightly cleaning</span>
+                                        <span>{icon2}</span>
                                     </li>
                                     <li>
                                         <div className="bd-promotion-icon">
-                                            <i className="flaticon-hand-wash theme-bg"></i>
+                                            <i className={iconImg2}></i>
                                         </div>
-                                        <span>Hand Washing</span>
+                                        <span>{icon1}</span>
                                     </li>
                                 </ul>
                             </div>
@@ -44,7 +52,7 @@ const ProgramPromotion = () => {
                             data-wow-delay=".3s">
                             <div className="bd-promotion-thumb">
                                 <div className="bd-promotion-thumb-mask p-relative">
-                                    <Image src={promotion} style={{ width: "100%", height: "100%" }} alt="img not found" />
+                                    <Image src={img} style={{ width: "100%", height: "100%" }} alt="img not found" />
                                     <div className="panel-2 wow"></div>
                                 </div>
                             </div>
@@ -53,6 +61,10 @@ const ProgramPromotion = () => {
                             </div>
                         </div>
                     </div>
+                    <p>
+                                    {desc2}
+
+                                                        </p>
                 </div>
             </div>
         </section>

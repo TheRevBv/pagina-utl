@@ -187,6 +187,35 @@ const program_data = [
       }
     ]
   },
+  {
+  id:7,
+    title:'Emprendimiento',
+    img:program_1,
+    description:'To round out our weekend of celebra tions, we are holding our reunion.',
+    icon: <ProgramIconOne />,
+    clrClass:'clr-1',
+    authorImg:author_1,
+    authorName:'Alexia Honix',
+    price: 175.00,
+    delay:'.2s',
+    programs:[
+      {
+        id: 1,
+        title: '6-7 Yrs',
+        subTitle: 'age',
+      },
+      {
+        id: 2,
+        title: '5 Days',
+        subTitle: 'weekly',
+      },
+      {
+        id: 3,
+        title: '3.30 Hrs',
+        subTitle: 'period',
+      }
+    ]
+  }
   
 ]
 
