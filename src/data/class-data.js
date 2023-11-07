@@ -90,7 +90,7 @@ const class_data = [
     price: 145.00,
   }, */
   // classes page data
-  {
+  /* {
     id: 5,
     img: img_1,
     title: "Sports Class",
@@ -155,7 +155,7 @@ const class_data = [
     price: 175.0,
     btn: "Join Now",
     delay: ".8s",
-  },
+  }, */
 ];
 
 export default class_data;
