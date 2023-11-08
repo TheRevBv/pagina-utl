@@ -245,8 +245,8 @@ const menu_data = [
        submenus: [
          { title: "Reclutamiento y Seleccion", link: "https://sito.utleon.edu.mx/jsp/reclutamiento/muestra_convocatoria_general.jsp" },
          { title: "Capacitacion", link: "/capacitacion" },
-         { title: "Entrega-Recepcion", link: "/entrega-Recepcion" },
-         { title: "Resultados de Medicion", link: "/resultados-Medicion" },
+         { title: "Entrega-Recepcion", link: "/entregaRecepcion" },
+         { title: "Resultados de Medicion", link: "/resultadosMedicion" },
        ],
       },
       {

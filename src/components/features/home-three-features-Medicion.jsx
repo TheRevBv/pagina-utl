@@ -5,35 +5,28 @@ import shape from "@assets/img/shape/wave-section-break.png";
 const features = [
     {
         id: 1,
-        title: 'Examen Médico',
-        teaser: 'Evaluación del estado de salud del alumnado de nuevo ingreso.',
+        title: 'Resultados de medicion de clima laboral',
+        link: "https://www.utleon.edu.mx/resource/documentos/WEB%20DHYO/Resultados%20GTO%20clima2021.pdf",
         iconStyle: 'icon-1',
-        icon: 'fa-sharp fa-solid fa-stethoscope',
+        icon: 'fa-solid fa-bullseye',
     },
     {
         id: 2,
-        title: 'Atención Médica',
-        teaser: 'Urgencias y consulta básica.',
+        title: 'Resultados de clima laboral enfoque de Igualdad Laboral y No Discriminación',
+        link: 'https://www.utleon.edu.mx/resource/documentos/WEB%20DHYO/Clima%20Laboral%20con%20enfoque%20de%20Igualdad%20y%20No%20Discriminaci%C3%B3n.pdf',
         iconStyle: 'icon-2',
-        icon: 'fa-solid fa-user-doctor',
+        icon: 'fa-solid fa-eye',
     },
     {
         id: 3,
-        title: 'Atención Médica Preventiva',
-        teaser: 'Campañas, pláticas y talleres de temas de salud.',
+        title: 'Resultados de evaluación de riesgos Psicosociales',
+        link: 'https://www.utleon.edu.mx/resource/documentos/WEB%20DHYO/INFORME%20DE%20RIESGOS%20PSICOSOCIALES%202020%20ok.pdf',
         iconStyle: 'icon-3',
-        icon: 'fa-sharp fa-regular fa-display-medical',
-    },
-    {
-        id: 4,
-        title: 'Apoyo en Eventos Especiales',
-        teaser: 'Torneos deportivos, jornadas, congresos entre otros',
-        iconStyle: 'icon-4',
-        icon: 'fa-regular fa-briefcase-medical',
+        icon: 'fa-solid fa-seedling',
     }
 ]
 
-const HomeThreeFeatureSalud = ({wave}) => {
+const HomeThreeFeature = ({wave}) => {
     return (
         <div className="bd-feature-area p-relative theme-bg pt-120 pb-120">
             {wave &&
@@ -46,25 +39,26 @@ const HomeThreeFeatureSalud = ({wave}) => {
                     <div className="col-lg-8 col-md-10">
                         <div className="bd-section-title-wrapper is-white text-center mb-55 wow fadeInUp" data-wow-duration="1s"
                             data-wow-delay=".3s">
-                            <h2 className="bd-section-title mb-0">Activadades</h2>
+                            <h2 className="bd-section-title mb-0">Actividades</h2>
                         </div>
                     </div>
                 </div>
-                <div className="bd-feature-wrapper wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                <div className="bd-feature-wrapper wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
                     <div className="row">
                         <div className="col-12">
-                            <ul className="feature">
+                            <ul className="feature" style={{display: "flex", alignItems: "center", flexDirection: "row"}}>
                                 {features.map((item) => (
-                                    <li className="feature-item" key={item.id}>
+                                    <li style={{width: "100%"}} key={item.id}>
+                                        <a href={item.link}>
                                         <div className="bd-feature">
                                             <div className="bd-feature-content">
                                                 <div className={`bd-feature-icon ${item.iconStyle}`}>
                                                     <i className={item.icon}></i>
                                                 </div>
                                                 <h4 className="bd-feature-title">{item.title}</h4>
-                                                <p>{item.teaser}</p>
                                             </div>
                                         </div>
+                                        </a>
                                     </li>
                                 ))}
                             </ul>
@@ -76,4 +70,4 @@ const HomeThreeFeatureSalud = ({wave}) => {
     );
 };
 
-export default HomeThreeFeatureSalud;
+export default HomeThreeFeature;
