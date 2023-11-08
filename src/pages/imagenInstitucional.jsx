@@ -23,6 +23,39 @@ const imagenInstitucional = () => {
        <p>Una de sus principales funciones es verificar el correcto uso del logotipo institucional, por lo cual, ponemos a su disposición el Manual de Identidad Corporativa para que se apegue a sus lineamientos.</p>
 <p>Antes de producir cualquier material que incluya el logotipo institucional, deberá solicitar su validación con el Departamento de Imagen a la ext. 213 o al correo argomez@utleon.edu.mx.</p>
 </div>
+    
+    <div style={{marginTop: "50px", marginBottom: "50px", fontSize: "1.5rem", width: "80%"}}>
+      <h4>Lineamientos del departamento de imagen</h4>
+      <hr style={{border: "2px solid #000000"}}/>
+      <a href="#"><p style={{color: "blue"}}>Manual de Imagen Institucional</p></a>
+      <br/>
+      {
+        //desplegable
+      }
+      
+
+     <h4>Firma Electrónica</h4>
+     <hr style={{border: "2px solid #000000"}}/>
+     <a href="#"><p style={{color: "blue"}}>Instrucciones para firma de correo institucional UTL-UAS</p></a>
+     <br/>
+
+     <h4>Plantillas para presentaciones</h4>
+      <hr style={{border: "2px solid #000000"}}/>
+      <br/>
+
+
+      <h4>Formato institucional para avisos</h4>
+      <hr style={{border: "2px solid #000000"}}/>
+      <br/>
+
+      <h4>Fondos de pantalla</h4>
+      <hr style={{border: "2px solid #000000"}}/>
+      <br/>
+
+
+      <p>Es importante mencionar que el Departamento de Imagen no brinda servicio de asesoría a la comunidad estudiantil, para ello, pueden contactarse con el CCC (Centro de Comunicación Comercial), ubicado en campus II.</p>
+      </div>
+      
     </div>
     
     
