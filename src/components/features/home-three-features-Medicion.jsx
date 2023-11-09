@@ -8,21 +8,21 @@ const features = [
         title: 'Resultados de medicion de clima laboral',
         link: "https://www.utleon.edu.mx/resource/documentos/WEB%20DHYO/Resultados%20GTO%20clima2021.pdf",
         iconStyle: 'icon-1',
-        icon: 'fa-solid fa-bullseye',
+        icon: 'fa-solid fa-chart-column',
     },
     {
         id: 2,
         title: 'Resultados de clima laboral enfoque de Igualdad Laboral y No Discriminación',
         link: 'https://www.utleon.edu.mx/resource/documentos/WEB%20DHYO/Clima%20Laboral%20con%20enfoque%20de%20Igualdad%20y%20No%20Discriminaci%C3%B3n.pdf',
         iconStyle: 'icon-2',
-        icon: 'fa-solid fa-eye',
+        icon: 'fa-solid fa-chart-bar',
     },
     {
         id: 3,
         title: 'Resultados de evaluación de riesgos Psicosociales',
         link: 'https://www.utleon.edu.mx/resource/documentos/WEB%20DHYO/INFORME%20DE%20RIESGOS%20PSICOSOCIALES%202020%20ok.pdf',
         iconStyle: 'icon-3',
-        icon: 'fa-solid fa-seedling',
+        icon: 'fa-solid fa-chart-pie',
     }
 ]
 
