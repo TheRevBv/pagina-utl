@@ -3,15 +3,14 @@ import SEO from "@components/seo";
 import Footer from "@layout/footers/footer";
 import Breadcrumb from "@components/common/breadcrumb/breadcrumb";
 import HeaderFour from "@layout/headers/headerFour";
-import imgComite from "@assets/img/utl/comiteIgualdad.jpg";
-import Image from 'next/image'
+
 
 const atencionCasos = () => {
   return (
     <Wrapper>
-    <SEO pageTitle={'Comité Ética y Prevención de Conflictos de Interés'} />
+    <SEO pageTitle={'Atención a Presuntos Casos de Violencia'} />
     <HeaderFour />
-    <Breadcrumb title="Comite Etica y Prevencion" subTitle="Comité Ética y Prevención de Conflictos de Interés" />
+    <Breadcrumb title="Atención a Presuntos Casos de Violencia" subTitle="Atención a Presuntos Casos de Violencia" />
     <h2 style={{textAlign: "center", marginTop: "50px"}}>Sub Comité de Atención a Presuntos Casos de Violencia, Acoso y Hostigamiento Sexual</h2>
     <div style={{display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column"}}>
     
