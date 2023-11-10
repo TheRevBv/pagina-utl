@@ -262,8 +262,8 @@ const menu_data = [
         title: "Transparencia",
        link: "#",
        submenus: [
-         { title: "Finanzas", link: "/finanzas" },
-         { title: "Contraloria Social", link: "/contraloria" },
+         { title: "Finanzas", link: "#" },
+         { title: "Contraloria Social", link: "#" },
          { title: "Obligaciones de Transparencia", link: "https://transparencia.guanajuato.gob.mx/transparencia/informacion_publica_pordependencia.php?dependencia=52" },
        ],
       },
