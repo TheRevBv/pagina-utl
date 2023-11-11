@@ -7,7 +7,7 @@ const footer_data = {
     logo: logo,
     logoWhite: logoWhite,
     teaser:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Comprometidos con la excelencia educativa y la innovación tecnológica. Conéctate con nosotros y forma parte de nuestra comunidad educativa.",
     socialTitle: "Social",
     newsTitle: "Join Our Newsletter",
     newsBtn: "Subscribe now",
@@ -15,95 +15,56 @@ const footer_data = {
       {
         id: 1,
         icon: "fa-brands fa-facebook-f",
-        url: "https://www.facebook.com/",
+        url: "https://www.facebook.com/UTLmex",
         name: "Facebook",
       },
       {
         id: 2,
         icon: "fa-brands fa-twitter",
-        url: "https://twitter.com/",
+        url: "https://twitter.com/UTLmex",
         name: "Twitter",
       },
       {
         id: 3,
         icon: "fa-brands fa-youtube",
-        url: "https://www.youtube.com/",
+        url: "https://www.youtube.com/@utlmex7825",
         name: "Youtube",
       },
     ],
   },
   quick_links: {
     id: 2,
-    title: "Quick links",
+    title: "Enlaces Directos",
     menus: [
       {
         id: 1,
-        menu: "About",
-        path: "/about",
+        menu: "Biblioteca Digital",
+        path: "http://www.bibliotecaecest.mx",
       },
       {
         id: 2,
-        menu: "Programs",
-        path: "/programs",
-      },
-      {
-        id: 3,
-        menu: "Shop",
-        path: "/shop",
-      },
-      {
-        id: 4,
-        menu: "Classes",
-        path: "/classes",
-      },
-      {
-        id: 5,
-        menu: "News",
-        path: "/news",
-      },
-      {
-        id: 6,
-        menu: "Contact",
-        path: "/contact",
+        menu: "Aula Virtual",
+        path: "http://aulaut.utleon.edu.mx",
       },
     ],
   },
   program_links: {
     id: 3,
-    title: "Programs",
+    title: "Nuestros Avisos de Privacidad",
     programs: [
       {
         id: 1,
-        menu: "Play School",
-        path: "/programs",
+        menu: "Aviso de Privacidad Simplificado",
+        path: "https://www.utleon.edu.mx/resource/documentos/AVISO%20PRIVACIDAD%20SIMPLIFICADO-23.pdf",
       },
       {
         id: 2,
-        menu: "Nursery",
-        path: "/programs",
-      },
-      {
-        id: 3,
-        menu: "Junior Kg",
-        path: "/programs",
-      },
-      {
-        id: 4,
-        menu: "Senior Kg",
-        path: "/programs",
-      },
-      {
-        id: 5,
-        menu: "Holiday Camp",
-        path: "/programs",
-      },
-      {
-        id: 6,
-        menu: "Day Care",
-        path: "/programs",
+        menu: "Aviso de Privacidad Integral",
+        path: "https://www.utleon.edu.mx/resource/documentos/AVISO%20PRIVACIDAD%20INTEGRAL%2023.pdf",
       },
     ],
   },
+
   customer_services: {
     id: 3,
     title: "Programs",
@@ -137,19 +98,19 @@ const footer_data = {
   },
   contact_info: {
     id: 4,
-    title: "Contact Us",
+    title: "Contactanos",
     infos: [
       {
         id: 1,
         icon: "fa-light fa-location-dot",
-        url: "#",
-        title: "14/A, Kilix Home Tower, NYC",
+        url: "https://www.google.com/maps/place/Universidad+Tecnológica+de+León/@21.0636171,-101.5816488,15z/data=!4m14!1m7!3m6!1s0x842b963652f40f0d:0xa7d88da0ad8eff8a!2sUniversidad+Tecnológica+de+León!8m2!3d21.0636171!4d-101.5816488!16s%2Fg%2F11bwdqj7w2!3m5!1s0x842b963652f40f0d:0xa7d88da0ad8eff8a!8m2!3d21.0636171!4d-101.5816488!16s%2Fg%2F11bwdqj7w2?entry=ttu",
+        title: "Blvd. Universidad Tecnológica #225 Col. San Carlos",
       },
       {
         id: 2,
         icon: "fa-light fa-phone",
-        url: "tel:9072003462",
-        title: "907-200-3462",
+        url: "tel:(477) 7 10 00 20",
+        title: "(477) 7 10 00 20",
       },
       {
         id: 3,

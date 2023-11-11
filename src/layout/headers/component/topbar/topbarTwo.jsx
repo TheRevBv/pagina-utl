@@ -15,7 +15,7 @@ const TopbarTwo = () => {
                       <i className="fa-sharp fa-solid fa-flag"></i>
                     </div>
                     <div className="bd-header-meta-text">
-                      <p>Journey Since 1990</p>
+                      <p>UTL.ser, saber, hacer</p>
                     </div>
                   </div>
                   <div className="bd-header-meta-item d-flex align-items-center">
@@ -25,7 +25,7 @@ const TopbarTwo = () => {
                     <div className="bd-header-meta-text">
                       <p>
                         <a href="#">
-                          1870 N State St, California, 95482 United States
+                          -Blvd. Universidad Tecnológica #225 Col. San Carlos CP. 37670 León, Gto. Mex
                         </a>
                       </p>
                     </div>
