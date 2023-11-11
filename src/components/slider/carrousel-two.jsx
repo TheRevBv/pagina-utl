@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import line_1 from "@assets/img/shape/white-curved-line.png";
 import line_2 from "@assets/img/shape/curved-line-2.png";
 
-const CarrouselTwo = ({ data }) => {
+const CarrouselTwo = ({ data, title, subTitle }) => {
   return (
     <Swiper
       modules={[Scrollbar, A11y, Autoplay, EffectFade, Navigation]}
@@ -61,7 +61,30 @@ const CarrouselTwo = ({ data }) => {
                     <div className="col-xl-10">
                       <div className="bd-breadcrumb d-flex align-items-center justify-content-center">
                         <div className="bd-breadcrumb-content text-center">
-                          <h1
+                          <h1 className="bd-breadcrumb-title">{title}</h1>
+                          <div className="bd-breadcrumb-list">
+                            <span>
+                              <Link href="/">
+                                <i className="flaticon-hut"></i>UTL
+                              </Link>
+                            </span>
+                            <span>{subTitle}</span>
+                          </div>
+                          <h3
+                            className="bd-breadcrumb-teaser animate__animated"
+                            data-animation="fadeInUp"
+                            data-delay=".2s"
+                          >
+                            {item.title}
+                          </h3>
+                          <span
+                            className="animate__animated"
+                            data-animation="fadeInUp"
+                            data-delay=".3s"
+                          >
+                            {item.subTitle}
+                          </span>
+                          {/* <h1
                             className="bd-breadcrumb-title animate__animated"
                             data-animation="fadeInUp"
                             data-delay=".2s"
@@ -81,7 +104,7 @@ const CarrouselTwo = ({ data }) => {
                             >
                               {item.subTitle}
                             </span>
-                          </div>
+                          </div> */}
                         </div>
                       </div>
                     </div>
