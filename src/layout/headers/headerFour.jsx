@@ -1,7 +1,8 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import TopbarFour from "./component/topbar/topbarFour";
-import logo from "@assets/img/logo/logoUTL.png";
+// import logo from "@assets/img/logo/logoUTL.png";
+import logo from "@assets/img/logo/logoCorto.png";
 import Image from "next/image";
 import Menus from "./menus";
 import SearchPopup from "./component/search-popup";

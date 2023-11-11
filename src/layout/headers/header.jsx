@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Menus from "./menus";
-import logo from "@assets/img/logo/logoUTL.png";
+// import logo from "@assets/img/logo/logoUTL.png";
+import logo from "@assets/img/logo/logoCorto.png";
 import useSticky from "@hooks/use-sticky";
 import TopbarOne from "./component/topbar/topbarOne";
 import SearchPopup from "./component/search-popup";
@@ -59,14 +60,14 @@ const Header = () => {
                         </p>
                       </div>
                     </div>
-                    <div className="bd-header-btn d-none d-xl-block">
+                    {/* <div className="bd-header-btn d-none d-xl-block">
                       <Link href="/contact" className="bd-btn">
                         <span className="bd-btn-inner">
                           <span className="bd-btn-normal">Herramientas</span>
                           <span className="bd-btn-hover">Herramientas</span>
                         </span>
                       </Link>
-                    </div>
+                    </div> */}
                     <div className="header-hamburger">
                       <button
                         type="button"

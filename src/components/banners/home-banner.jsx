@@ -47,12 +47,12 @@ const HomeBanner = () => {
                     <br /> about the world around us or a challenge.
                   </p>
                 </div>
-                <Link href="/classes" className="bd-btn btn-white">
+                {/* <Link href="/classes" className="bd-btn btn-white">
                   <span className="bd-btn-inner">
                     <span className="bd-btn-normal">Herramientas</span>
                     <span className="bd-btn-hover">Herramientas</span>
                   </span>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

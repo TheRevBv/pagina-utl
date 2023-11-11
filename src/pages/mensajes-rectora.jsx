@@ -20,7 +20,7 @@ const MensajesRectoraPage = () => {
         msgTitle={aspirante[0].title}
         msgDescripcion={aspirante[0].description}
       />
-      <Rectora rectora_data={rectora_data} />
+      <Rectora rectora_data={rectora_data[0]} />
       <Footer />
     </Wrapper>
   );

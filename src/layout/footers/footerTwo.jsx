@@ -5,7 +5,6 @@ import React from "react";
 import CopyrightTwo from "./component/copyright-two";
 import footerImg from "../../../public/assets/img/logo/footer-logo_2022.jpg";
 
-
 const FooterTwo = () => {
   return (
     <footer>
@@ -16,10 +15,10 @@ const FooterTwo = () => {
         </div>
         <div className="theme-bg bd-footer-wrapper p-relative pt-60">
           <div className="container">
-            <div
+            {/* <div
               className="bd-footer-bg-2"
               data-background="assets/img/bg/bg-shape.jpg"
-            ></div>
+              ></div> */}
             <div className="bd-footer-top">
               <div className="row align-items-end">
                 <div className="col-lg-6">
@@ -157,15 +156,15 @@ const FooterTwo = () => {
               </div>
             </div>
             <div className="container-imagen-footer">
-          <Image 
-            src={footerImg} 
-            alt="logo" 
-            className="imagen-footer"
-            layout="responsive"
-            width={500} 
-            height={100}
-          />
-        </div>
+              <Image
+                src={footerImg}
+                alt="logo"
+                className="imagen-footer"
+                layout="responsive"
+                width={500}
+                height={100}
+              />
+            </div>
             <CopyrightTwo />
           </div>
         </div>

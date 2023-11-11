@@ -1,6 +1,7 @@
 import useSticky from "@hooks/use-sticky";
 import React, { useState } from "react";
-import logo from "@assets/img/logo/logoUTL.png";
+// import logo from "@assets/img/logo/logoUTL.png";
+import logo from "@assets/img/logo/logoCorto.png";
 import Image from "next/image";
 import Link from "next/link";
 import TopbarThree from "./component/topbar/topbarThree";
@@ -75,14 +76,14 @@ const HeaderThree = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="bd-header-btn d-none d-xl-block">
+                    {/* <div className="bd-header-btn d-none d-xl-block">
                       <Link href="/contact" className="bd-btn">
                         <span className="bd-btn-inner">
                           <span className="bd-btn-normal">Get In Touch</span>
                           <span className="bd-btn-hover">Get In Touch</span>
                         </span>
                       </Link>
-                    </div>
+                    </div> */}
                     <div className="header-hamburger">
                       <button
                         type="button"

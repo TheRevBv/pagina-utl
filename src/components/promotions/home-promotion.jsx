@@ -78,13 +78,20 @@ const HomePromotion = ({ promoImg, promo_space }) => {
                 data-wow-delay=".3s"
               >
                 <div className="bd-section-title-wrapper mb-35">
-                  <h2 className="bd-section-title mb-10">
-                    Historia
-                  </h2>
+                  <h2 className="bd-section-title mb-10">Historia</h2>
                   <p>
                     {" "}
-                    La Universidad Tecnológica de León inició su funcionamiento el 26 de septiembre de 1995, con la inauguración de cursos efectuada por el C. Vicente Fox Quesada, Gobernador Constitucional del Estado de Guanajuato, ante la presencia de altas personalidades del gobierno federal, estatal, municipal y la comunidad universitaria.
-Desde el 25 de septiembre de 1995 y hasta la fecha, formamos ciudadanos y ciudadanas de bien, con pensamiento global y acción local, con innovación, profundos valores humanos y universales y sobre todo, brindando educación tecnológica y de calidad, orientada a la industria 4.0 y la mente-factura”.
+                    La Universidad Tecnológica de León inició su funcionamiento
+                    el 26 de septiembre de 1995, con la inauguración de cursos
+                    efectuada por el C. Vicente Fox Quesada, Gobernador
+                    Constitucional del Estado de Guanajuato, ante la presencia
+                    de altas personalidades del gobierno federal, estatal,
+                    municipal y la comunidad universitaria. Desde el 25 de
+                    septiembre de 1995 y hasta la fecha, formamos ciudadanos y
+                    ciudadanas de bien, con pensamiento global y acción local,
+                    con innovación, profundos valores humanos y universales y
+                    sobre todo, brindando educación tecnológica y de calidad,
+                    orientada a la industria 4.0 y la mente-factura”.
                   </p>
                 </div>
                 {!promo_space && (
@@ -108,13 +115,13 @@ Desde el 25 de septiembre de 1995 y hasta la fecha, formamos ciudadanos y ciudad
                   <ul>
                     <li>SOMOS COMUNIDAD UTL</li>
                     <li>
-                    Somos una institución tecnológica con sentido humano 
+                      Somos una institución tecnológica con sentido humano
                     </li>
                   </ul>
                 </div>
                 <div className="bd-promotion-btn-wrapper flex-wrap">
                   <div className="bd-promotion-btn">
-                    <Link href="/programs" className="bd-btn">
+                    <Link href="/soy-aspirante" className="bd-btn">
                       <span className="bd-btn-inner">
                         <span className="bd-btn-normal">Programas</span>
                         <span className="bd-btn-hover">Programas</span>
@@ -127,7 +134,8 @@ Desde el 25 de septiembre de 1995 y hasta la fecha, formamos ciudadanos y ciudad
                       className="popup-video"
                       onClick={() => setIsVideoOpen(true)}
                     >
-                      <i className="flaticon-play-button"></i> Video de presentación UTL
+                      <i className="flaticon-play-button"></i> Video de
+                      presentación UTL
                     </button>
                   </div>
                 </div>

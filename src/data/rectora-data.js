@@ -11,6 +11,8 @@ const rectora_data = [
       "Es un gusto muy especial dirigirme a ti, apreciable aspirante.\n" +
       "En la Universidad Tecnológica de León, te abrimos las puertas para que formes parte de nuestra familia, ya que contamos con una gama muy amplia de carreras universitarias para preparar a los futuros profesionistas que requiere León y Guanajuato. \n" +
       "Estamos seguros que nuestro modelo educativo puede ser de gran interés y utilidad para continuar tu trayecto de formación profesional y laboral.",
+    frase:
+      "La motivación es lo que te pone en marcha, el hábito es lo que hace que sigas.",
     image: img_1,
     facebook: "https://www.facebook.com",
     twitter: "https://www.twitter.com",

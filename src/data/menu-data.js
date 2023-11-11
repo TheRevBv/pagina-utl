@@ -115,7 +115,7 @@ const menu_data = [
             programImg: true,
             title: "Nuestra rectora",
             link: "/mensajes-rectora",
-            img: "/assets/img/logo/mega-menu-1.png",
+            img: "/assets/img/utl/imgRectora.jpg",
             btn: "Ver más",
           },
         ],
@@ -124,15 +124,199 @@ const menu_data = [
   },
   {
     id: 4,
-    hasDropdown: true,
+    megaMenu: true,
+    pages: true,
     title: "Soy Estudiante",
     link: "/soy-estudiante",
-    submenus: [
-      { title: "Shop Main", link: "/shop" },
-      { title: "Shop Details", link: "/shop-details" },
-      { title: "Wishlist", link: "/wishlist" },
-      { title: "Cart", link: "/cart" },
-      { title: "Checkout", link: "/checkout" },
+    mega_menus: [
+      {
+        title: "Tramites escolares",
+        link: "#",
+        submenus: [
+          {
+            title: "Solicitud de constancias",
+            link: "/solicitud-constancias",
+            count: "02",
+            // age: "4-5 Yrs",
+          },
+          {
+            title: "Trámite de credencial",
+            link: "/tramite-credencial",
+            count: "03",
+            // age: "3-4 Yrs",
+          },
+          {
+            title: "Trámite Estudiantil IMSS",
+            link: "/tramite-estudiantil-imss",
+            count: "04",
+            // age: "2-3 Yrs",
+          },
+          {
+            title: "Becas",
+            link: "/becas",
+            count: "05",
+          },
+          {
+            title: "Pago de examen de regularización",
+            link: "/pago-examen-regularizacion",
+            count: "06",
+          },
+          {
+            title: "Reinscripción",
+            link: "/reinscripcion",
+            count: "07",
+          },
+          {
+            title: "Reingreso",
+            link: "/reingreso",
+            count: "08",
+          },
+          {
+            title: "Tramite de baja",
+            link: "/baja",
+            count: "09",
+          },
+          {
+            title: "Titulación",
+            link: "/titulacion",
+            count: "10",
+          },
+        ],
+      },
+      {
+        title: "Servicios integrales para el alumnado",
+        link: "#",
+        submenus: [
+          {
+            title: "Actividades culturales y deportivas",
+            link: "/actividades-culturales-deportivas",
+            count: "05",
+            // age: "3-4 Yrs",
+          },
+          {
+            title: "Programa institucional de tutorías PIT",
+            link: "/programa-institucional-tutorias-pit",
+            count: "06",
+            // age: "4-5 Yrs",
+          },
+          {
+            title: "Servicio de atención psicológica SAP",
+            link: "/servicio-atencion-psicologica-sap",
+            count: "07",
+          },
+          {
+            title: "Emprendimiento",
+            link: "/emprendimiento",
+            count: "08",
+          },
+          {
+            title: "Centro de información",
+            link: "/centro-informacion",
+            count: "09",
+          },
+          {
+            title: "Centro de idiomas",
+            link: "/centro-idiomas",
+            count: "10",
+          },
+          {
+            title: "Salud integral",
+            link: "/salud-integral",
+            count: "11",
+          },
+          {
+            title: "Laboratorios especializados",
+            link: "/laboratorios-especializados",
+            count: "12",
+          },
+          {
+            title: "Altas de internet",
+            link: "/altas-internet",
+            count: "13",
+          },
+          {
+            title: "Centros de cómputo",
+            link: "/centros-computo",
+            count: "14",
+          },
+          {
+            title: "Aula Virtual",
+            link: "/aula-virtual",
+            count: "15",
+          },
+          {
+            title: "Estadías ",
+            link: "/estadias",
+            count: "16",
+          },
+          {
+            title: "Estadías Especiales e Internacionales",
+            link: "/estadias-especiales-internacionales",
+            count: "17",
+          },
+          {
+            title: "Investigación Estudiantil",
+            link: "/investigacion-estudiantil",
+            count: "18",
+          },
+        ],
+      },
+      {
+        // Agrega acento a organos colegiados
+        title: "Organos Colegiados",
+        link: "#",
+        submenus: [
+          {
+            title: "Comisión de Salud",
+            link: "/comision-salud",
+            count: "05",
+            // age: "3-4 Yrs",
+          },
+          {
+            title: "Cultura de Paz",
+            link: "/cultura-paz",
+            count: "06",
+            // age: "4-5 Yrs",
+          },
+        ],
+      },
+      {
+        title: "Contáctanos",
+        link: "#",
+        submenus: [
+          {
+            title: "Solicta información",
+            link: "/solicita-informacion",
+            count: "05",
+            // age: "3-4 Yrs",
+          },
+          {
+            title: "Oficina Virtual Escolares",
+            link: "/oficina-virtual-escolares",
+            count: "05",
+            // age: "3-4 Yrs",
+          },
+          {
+            title: "Buzón institucional",
+            link: "/buzon-institucional",
+            count: "05",
+            // age: "3-4 Yrs",
+          },
+        ],
+      },
+      {
+        title: "Nuestra rectora",
+        link: "#",
+        submenus: [
+          {
+            programImg: true,
+            title: "Mensaje de la rectora",
+            link: "/mensajes-rectora",
+            img: "/assets/img/utl/imgRectora.jpg",
+            btn: "Ver más",
+          },
+        ],
+      },
     ],
   },
   {
@@ -208,8 +392,10 @@ const menu_data = [
       { title: "Emprendimiento", link: "/news-sidebar" },
       // { title: "Educacion continua", link: "/news-classic" },
       // { title: "¿Quieres laboral en la utl?", link: "/news-details" },
-      { title: "¿Quieres laborar en la utl?", link: "https://sito.utleon.edu.mx/jsp/reclutamiento/muestra_convocatoria_general.jsp" },
-
+      {
+        title: "¿Quieres laborar en la utl?",
+        link: "https://sito.utleon.edu.mx/jsp/reclutamiento/muestra_convocatoria_general.jsp",
+      },
     ],
   },
   {
@@ -224,56 +410,87 @@ const menu_data = [
         link: "#",
         submenus: [
           { title: "Mensaje de la rectora", link: "/mensajeAdministrativo" },
-            { title: "Salud Integral", link: "/saludIntegral" },
+          { title: "Salud Integral", link: "/saludIntegral" },
         ],
       },
       {
         title: "Recursos para la gestión administrativa",
-       link: "#",
-       submenus: [
-         { title: "SITO", link: "https://sito.utleon.edu.mx/" },
-         { title: "SGI", link: "http://sgi.utleon.edu.mx/" },
-         { title: "Correo Institucional", link: "https://www.office.com/?auth=2" },
-         { title: "Calendario Escolar", link: "https://www.utleon.edu.mx/resource/img/CALENDARIO%20LE%C3%93N.jpg" },
-         { title: "Difusion e Imagen Intitucional", link: "/imagenInstitucional" },
-         { title: "Mesa de Ayuda DSI", link: "http://zammad.utleon.edu.mx/#login" },
-       ],
+        link: "#",
+        submenus: [
+          { title: "SITO", link: "https://sito.utleon.edu.mx/" },
+          { title: "SGI", link: "http://sgi.utleon.edu.mx/" },
+          {
+            title: "Correo Institucional",
+            link: "https://www.office.com/?auth=2",
+          },
+          {
+            title: "Calendario Escolar",
+            link: "https://www.utleon.edu.mx/resource/img/CALENDARIO%20LE%C3%93N.jpg",
+          },
+          {
+            title: "Difusion e Imagen Intitucional",
+            link: "/imagenInstitucional",
+          },
+          {
+            title: "Mesa de Ayuda DSI",
+            link: "http://zammad.utleon.edu.mx/#login",
+          },
+        ],
       },
       {
         title: "Desarrollo Humano y Organizacional",
-       link: "#",
-       submenus: [
-         { title: "Reclutamiento y Seleccion", link: "https://sito.utleon.edu.mx/jsp/reclutamiento/muestra_convocatoria_general.jsp" },
-         { title: "Capacitacion", link: "/capacitacion" },
-         { title: "Entrega-Recepcion", link: "/entregaRecepcion" },
-         { title: "Resultados de Medicion", link: "/resultadosMedicion" },
-       ],
+        link: "#",
+        submenus: [
+          {
+            title: "Reclutamiento y Seleccion",
+            link: "https://sito.utleon.edu.mx/jsp/reclutamiento/muestra_convocatoria_general.jsp",
+          },
+          { title: "Capacitacion", link: "/capacitacion" },
+          { title: "Entrega-Recepcion", link: "/entregaRecepcion" },
+          { title: "Resultados de Medicion", link: "/resultadosMedicion" },
+        ],
       },
       {
         title: "Organos Colegiados",
         link: "#",
         submenus: [
-          { title: "Ética y Prevencion de Conflictos de Interes", link: "/EticayPrevencionConflicto" },
-          { title: "Comite de Igualdad Laboral y no Discriminacion", link: "/comiteIgualdad" },
-          { title: "Sub-Comite de Atenciaon a Presuntos Caso de Violencia, Acoso y Hostigamiento", link: "/atencionCasos" },
+          {
+            title: "Ética y Prevencion de Conflictos de Interes",
+            link: "/EticayPrevencionConflicto",
+          },
+          {
+            title: "Comite de Igualdad Laboral y no Discriminacion",
+            link: "/comiteIgualdad",
+          },
+          {
+            title:
+              "Sub-Comite de Atenciaon a Presuntos Caso de Violencia, Acoso y Hostigamiento",
+            link: "/atencionCasos",
+          },
         ],
       },
       {
         title: "Transparencia",
-       link: "#",
-       submenus: [
-         { title: "Finanzas", link: "#" },
-         { title: "Contraloria Social", link: "#" },
-         { title: "Obligaciones de Transparencia", link: "https://transparencia.guanajuato.gob.mx/transparencia/informacion_publica_pordependencia.php?dependencia=52" },
-       ],
+        link: "#",
+        submenus: [
+          { title: "Finanzas", link: "#" },
+          { title: "Contraloria Social", link: "#" },
+          {
+            title: "Obligaciones de Transparencia",
+            link: "https://transparencia.guanajuato.gob.mx/transparencia/informacion_publica_pordependencia.php?dependencia=52",
+          },
+        ],
       },
       {
         title: "Protocolo de Seguridad",
-       link: "#",
-       submenus: [
-         { title: "Protocolo de Seguridad", link: "/protocoloSeguridad" },
-         { title: "Protocolo de Emergencia", link: "https://www.utleon.edu.mx/public_html/seguridad-institucional/protocolo-de-emergencia/img_protocolo_de_emergencia.jpg" },
-       ],
+        link: "#",
+        submenus: [
+          { title: "Protocolo de Seguridad", link: "/protocoloSeguridad" },
+          {
+            title: "Protocolo de Emergencia",
+            link: "https://www.utleon.edu.mx/public_html/seguridad-institucional/protocolo-de-emergencia/img_protocolo_de_emergencia.jpg",
+          },
+        ],
       },
     ],
   },
