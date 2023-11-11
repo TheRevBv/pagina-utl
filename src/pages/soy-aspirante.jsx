@@ -11,6 +11,7 @@ import SEO from "@components/seo";
 import SoyAspirantePageMain from "@components/soy-aspirante/soy-aspirante-page-main";
 import sliders_data from "@data/sliders-data";
 import tsu_data from "@data/tsu-data";
+import lateralImg from "@assets/img/utl/tsuOfertaGeneral.jpeg";
 
 const SoyAspirantePage = () => {
   const { aspirante } = sliders_data;
@@ -24,7 +25,12 @@ const SoyAspirantePage = () => {
         msgTitle={aspirante[0].title}
         msgDescripcion={aspirante[0].description}
       />
-      <ProgramPromotion />
+      <ProgramPromotion
+        title={"Carreras de TSU"}
+        subtitle={"Técnico Superior Universitario"}
+        desc={aspirante[0].description}
+        img={lateralImg}
+      />
       {/* <AboutTestimonial /> */}
       {/* <SoyAspirantePageMain /> */}
       <Carreras class_data={tsu_data} />

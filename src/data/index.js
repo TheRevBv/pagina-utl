@@ -9,7 +9,7 @@ import program_data from "./program-data";
 import rectora_data from "./rectora-data";
 import slider_data from "./sliders-data";
 import teacher_data from "./teacher-data";
-import tsu_data from "./tsu-data";
+import { tsu_data, tsu_main_data } from "./tsu-data";
 
 export {
   // aspirante_slider_data,
@@ -24,4 +24,5 @@ export {
   slider_data,
   teacher_data,
   tsu_data,
+  tsu_main_data,
 };

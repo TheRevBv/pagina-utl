@@ -17,12 +17,12 @@ const SoyAspiranteProgram = () => {
               data-wow-duration="1s"
               data-wow-delay=".2s"
             >
-              <h2 className="bd-section-title mb-0">Our Feature Programs</h2>
+              {/* <h2 className="bd-section-title mb-0">Our Feature Programs</h2>
               <p>
                 Kindedo opened its doors in 1984 with a unique vision to provide
                 its students
                 <br /> with a globally focused study of arts.
-              </p>
+              </p> */}
             </div>
           </div>
         </div>

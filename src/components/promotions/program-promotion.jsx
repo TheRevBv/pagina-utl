@@ -46,22 +46,24 @@ const ProgramPromotion = ({
                   ) : null}
                 </p>
               </div>
-              <div className="bd-promotion-list-2">
-                <ul>
-                  <li>
-                    <div className="bd-promotion-icon">
-                      <i className={iconImg1}></i>
-                    </div>
-                    <span>{icon2}</span>
-                  </li>
-                  <li>
-                    <div className="bd-promotion-icon">
-                      <i className={iconImg2}></i>
-                    </div>
-                    <span>{icon1}</span>
-                  </li>
-                </ul>
-              </div>
+              {!iconImg1 ?? (
+                <div className="bd-promotion-list-2">
+                  <ul>
+                    <li>
+                      <div className="bd-promotion-icon">
+                        <i className={iconImg1}></i>
+                      </div>
+                      <span>{icon2}</span>
+                    </li>
+                    <li>
+                      <div className="bd-promotion-icon">
+                        <i className={iconImg2}></i>
+                      </div>
+                      <span>{icon1}</span>
+                    </li>
+                  </ul>
+                </div>
+              )}
             </div>
           </div>
           <div className="col-xl-6 col-lg-6">
@@ -89,7 +91,7 @@ const ProgramPromotion = ({
               </div>
             </div>
           </div>
-          <p>{desc2}</p>
+          <p>{desc2 ?? ""}</p>
         </div>
       </div>
     </section>
