@@ -7,14 +7,17 @@ import img_5 from '@assets/img/teacher/5.jpg';
 import img_6 from '@assets/img/teacher/6.jpg';
 import img_7 from '@assets/img/teacher/7.jpg';
 import img_8 from '@assets/img/teacher/8.jpg';
-
+import imgRectora from '@assets/img/utl/imgRectora.jpg';
+import imgTeacher from '@assets/img/utl/imgTeacher1.jpg';
+import imgTeacher2 from '@assets/img/utl/imgTeacher2.jpg';
+import imgTeacher3 from '@assets/img/utl/imgTeacher3.png';
 
 const teacher_data = [
   {
     id:1,
-    img:img_1,
-    name:'Emmy Jonas',
-    designation:'Teacher',
+    img:imgRectora,
+    name:'Yoloxóchitl Bustamante Díez',
+    designation:'Rectora',
     delay: '.4s',
     social_links: [
       { link: 'http://facebook.com', target: '_blank', icon: 'fa-brands fa-facebook-f', name: 'Facebook' },
@@ -24,9 +27,9 @@ const teacher_data = [
   },
   {
     id:2,
-    img:img_2,
-    name:'Frances R.',
-    designation:'Teacher',
+    img:imgTeacher,
+    name:'Romero',
+    designation:'Asesor de Carrera TICS',
     delay: '.5s',
     social_links: [
       { link: 'http://facebook.com', target: '_blank', icon: 'fa-brands fa-facebook-f', name: 'Facebook' },
@@ -36,9 +39,9 @@ const teacher_data = [
   },
   {
     id:3,
-    img:img_3,
-    name:'Cecelia D.',
-    designation:'Teacher',
+    img:imgTeacher2,
+    name:'Cardiel',
+    designation:'Profesor de Carrera TICS',
     delay: '.6s',
     social_links: [
       { link: 'http://facebook.com', target: '_blank', icon: 'fa-brands fa-facebook-f', name: 'Facebook' },
@@ -48,9 +51,9 @@ const teacher_data = [
   },
   {
     id:4,
-    img:img_4,
-    name:'Olinda L.',
-    designation:'Teacher',
+    img:imgTeacher3,
+    name:'Mena',
+    designation:'Profesor de Carrera TICS',
     delay: '.7s',
     social_links: [
       { link: 'http://facebook.com', target: '_blank', icon: 'fa-brands fa-facebook-f', name: 'Facebook' },

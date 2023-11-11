@@ -13,6 +13,11 @@ export default function Teachers() {
       <SEO pageTitle={'Teachers'} />
       <HeaderFour />
       <Breadcrumb title="Teachers" subTitle="Teachers" />
+      {/* Agregar encabezado centrado y de un maximo de 80% */}
+      <div style={{textAlign: "center", maxWidth: "80%", margin: "auto"}}>
+        <h2>Nuestros directivos, profesores y asesores</h2>
+      </div>
+      
       <TeacherPageMain />
       <HomeNewsletter />
       <Footer/>

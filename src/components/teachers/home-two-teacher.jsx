@@ -58,7 +58,7 @@ const HomeTwoTeacher = () => {
                                     ))}
                                 </div>
                                 <div className="bd-teacher-view-btn p-relative z-index-1 text-center mt-10">
-                                    <Link href="/teachers">View Our All Teacher</Link>
+                                    <Link href="/teachers">Ver mas .....</Link>
                                 </div>
                             </div>
                         </div>

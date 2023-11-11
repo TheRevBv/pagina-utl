@@ -8,6 +8,14 @@ import img_6 from '@assets/img/blog/6.jpg';
 import img_7 from '@assets/img/blog/7.jpg';
 import img_8 from '@assets/img/blog/8.jpg';
 import img_9 from '@assets/img/blog/9.jpg';
+import imgCongreso from '@assets/img/utl/imgCongreso.jpg';
+import imgRobotic from '@assets/img/utl/imgRobotica.jpg';
+import imgHablidades from '@assets/img/utl/tallerHabilidadesBlandas.png';
+import imgTallerTics from '@assets/img/utl/tallerTICS.jpg';
+import imgTallerElectronica from '@assets/img/utl/tallerElectronica.png';
+import imgImpostor from '@assets/img/utl/tallerImpostor.png';
+import imgDeportes from '@assets/img/utl/deportesUTL.jpg';
+
 
 
 const blog_data = [
@@ -94,7 +102,7 @@ const blog_data = [
   //noticias UTL
   {
     id: 1,
-    img: img_1,
+    img: imgCongreso,
     title: 'Conferencias de la UTL en el Congreso Internacional de Educación',
     date: '22 Jan 2023',
     user: 'Alex',
@@ -105,7 +113,7 @@ const blog_data = [
   },
   {
     id: 2,
-    img: img_2,
+    img: imgRobotic,
     title: 'Participación de la UTL en el evento de robótica',
     date: '23 Jan 2023',
     user: 'Peter',
@@ -116,7 +124,7 @@ const blog_data = [
   },
   {
     id: 3,
-    img: img_3,
+    img: imgHablidades,
     title: 'Unete al taller de habilidades blandas',
     date: '24 Jan 2023',
     user: 'Steve',
@@ -128,7 +136,7 @@ const blog_data = [
   // blog page
   {
     id: 4,
-    img: img_4,
+    img: imgTallerTics,
     title: 'Conferencia de Tecnologías de la Información',
     date: '25 Jan 2023',
     user: 'Sayem',
@@ -139,7 +147,7 @@ const blog_data = [
   },
   {
     id: 5,
-    img: img_5,
+    img: imgTallerElectronica,
     title: 'Taller de electrónica  basica',
     date: '24 Jan 2023',
     user: 'Saif',
@@ -150,7 +158,7 @@ const blog_data = [
   },
   {
     id: 6,
-    img: img_6,
+    img: imgImpostor,
     title: 'Conferencia sobre el sindrome del impostor',
     date: '23 Jan 2023',
     user: 'Andrew',
@@ -161,7 +169,7 @@ const blog_data = [
   },
   {
     id: 7,
-    img: img_7,
+    img: imgDeportes,
     title: 'Semana de actividades deportivas',
     date: '26 Jan 2023',
     user: 'Watson',

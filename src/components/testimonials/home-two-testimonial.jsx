@@ -3,6 +3,9 @@ import Image from "next/image";
 import big_image from "@assets/img/testimonials/big-1.jpg";
 import img1 from "@assets/img/testimonials/1.png";
 import img2 from "@assets/img/testimonials/2.png";
+import imgTestimonio from "@assets/img/utl/imgTestimonio.jpg";
+import iconoH from "@assets/img/utl/iconoH.png";
+import iconoM from "@assets/img/utl/iconoMujer.jpg";
 
 const testimonial_data = [
     {
@@ -10,7 +13,7 @@ const testimonial_data = [
         review: 'Actualmente soy un profesional en el área de la informática, gracias a la UTL, que me brindo las herramientas necesarias para poder desarrollarme en el ámbito laboral.',
         author: 'Norma J. Johnston',
         clrClass: 'theme-bg-6',
-        authorImg: img1,
+        authorImg: iconoH,
         delay: '.3s',
         ratings: [
             { id: 1, icon: 'fas fa-star' },
@@ -25,7 +28,7 @@ const testimonial_data = [
         review: 'Gracias a la UTL, pude cumplir mi sueño de ser un profesional en el área de mercadotecnia y ventas, y ahora me encuentro trabajando en una empresa reconocida en el país.',
         author: 'Mateo D. Daniel',
         clrClass: 'clr-1 theme-bg-7',
-        authorImg: img2,
+        authorImg: iconoM,
         delay: '.5s',
         ratings: [
             { id: 1, icon: 'fas fa-star' },
@@ -56,7 +59,7 @@ const HomeTwoTestimonial = () => {
                     <div className="col-xl-6 col-lg-6">
                         <div className="bd-testimonial-thumb-2 wow fadeInLeft p-relative" data-wow-duration="1s"
                             data-wow-delay=".3s">
-                            <Image src={big_image} style={{ width: "100%", height: "100%" }} alt="img not found" />
+                            <Image src={imgTestimonio} style={{ width: "100%", height: "100%" }} alt="img not found" />
                             <div className="panel wow"></div>
                         </div>
                     </div>
