@@ -6,8 +6,10 @@ import gallary_data from "./gallary-data";
 import menu_data from "./menu-data";
 import product_data from "./product-data";
 import program_data from "./program-data";
+import rectora_data from "./rectora-data";
 import slider_data from "./sliders-data";
 import teacher_data from "./teacher-data";
+import tsu_data from "./tsu-data";
 
 export {
   // aspirante_slider_data,
@@ -18,6 +20,8 @@ export {
   menu_data,
   product_data,
   program_data,
+  rectora_data,
   slider_data,
   teacher_data,
+  tsu_data,
 };

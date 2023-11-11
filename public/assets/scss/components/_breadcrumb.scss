@@ -1,4 +1,4 @@
-@use '../utils' as *;
+@use "../utils" as *;
 
 /*----------------------------------------*/
 /*  BREADCRUMB CSS START
@@ -7,7 +7,7 @@
 .bd-breadcrumb {
     position: relative;
     z-index: 2;
-    min-height: 354px;
+    min-height: 50vh;
 
     &-bg {
         position: absolute;
@@ -44,7 +44,7 @@
     }
 
     &-title {
-        // position: relative;        
+        // position: relative;
         color: var(--bd-common-white);
         font-weight: var(--bd-fw-sbold);
         margin-bottom: 5px;
@@ -65,6 +65,52 @@
         @media #{$xs} {
             font-size: 50px;
         }
+    }
+
+    &-teaser{
+        color: var(--bd-theme-2);
+        font-size: 32px;
+        font-weight: var(--bd-fw-sbold);
+        margin-top: 20px;
+
+        @media #{$xs} {
+            font-size: 16px;
+        }
+
+        @media #{$sm,$md} {
+            font-size: 18px;
+        }
+
+        @media #{$lg} {
+            font-size: 18px;
+        }
+
+        @media #{$xl} {
+            font-size: 20px;
+        }
+    }
+
+    &-teaser-desc{
+        color: var(--bd-common-white);
+        // font-size: 12
+        // font-weight: var(--bd-fw-regular);
+        // margin-bottom: 20px;
+
+        // @media #{$xs} {
+        //     font-size: 16px;
+        // }
+
+        // @media #{$sm,$md} {
+        //     font-size: 18px;
+        // }
+
+        // @media #{$lg} {
+        //     font-size: 18px;
+        // }
+
+        // @media #{$xl} {
+        //     font-size: 20px;
+        // }
     }
 
     &-list {
@@ -104,7 +150,7 @@
         }
     }
 
-    &-msg{
+    &-msg {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -142,7 +188,6 @@
         p {
             color: var(--bd-common-white);
         }
-
     }
 }
 

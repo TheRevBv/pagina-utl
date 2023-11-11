@@ -42,7 +42,7 @@ const Breadcrumb = ({ title, subTitle }) => {
   return (
     <>
       <section className="bd-breadcrumb-area p-relative fix theme-bg">
-        <CarrouselTwo data={hero_data} />
+        <CarrouselTwo data={hero_data} title={title} subTitle={subTitle} />
       </section>
     </>
   );
