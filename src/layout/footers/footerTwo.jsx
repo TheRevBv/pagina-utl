@@ -3,6 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import CopyrightTwo from "./component/copyright-two";
+import footerImg from "../../../public/assets/img/logo/footer-logo_2022.jpg";
+
 
 const FooterTwo = () => {
   return (
@@ -154,6 +156,16 @@ const FooterTwo = () => {
                 </div>
               </div>
             </div>
+            <div className="container-imagen-footer">
+          <Image 
+            src={footerImg} 
+            alt="logo" 
+            className="imagen-footer"
+            layout="responsive"
+            width={500} 
+            height={100}
+          />
+        </div>
             <CopyrightTwo />
           </div>
         </div>

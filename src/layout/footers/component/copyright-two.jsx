@@ -5,12 +5,9 @@ const CopyrightTwo = () => {
     <div className="bd-footer-copyright pb-5 pt-25">
       <div className="bd-footer-copyright-wrap d-flex justify-content-center">
         <div className="bd-footer-copyright-text is-white pb-20">
-          <p>
-            Copyrighted by &copy;{new Date().getFullYear()}{" "}
-            <a href="https://github.com/orgs/RevIdgs" rel="nofollow">
-              IDGS1003
-            </a>
-          </p>
+        <p>
+  Derechos Reservados &copy;{new Date().getFullYear()} Universidad Tecnológica de León. Todos los derechos reservados.
+</p>
         </div>
       </div>
     </div>

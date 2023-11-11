@@ -3,13 +3,16 @@ import Image from "next/image";
 import Link from "next/link";
 import CopyrightText from "./component/copyright-text";
 import footer_data from "@data/footer-data";
+import footerImg from "../../../public/assets/img/logo/footer-logo_2022.jpg";
 // internal
 
 const Footer = () => {
   return (
     <>
       <footer>
+      
         <div className="bd-footer-area pt-200">
+        
           <div className="bd-gradient-bg"></div>
           <div className="bd-footer pt-90 pb-25">
             <div className="container">
@@ -99,6 +102,16 @@ const Footer = () => {
               </div>
             </div>
           </div>
+          <div className="container-imagen-footer">
+          <Image 
+            src={footerImg} 
+            alt="logo" 
+            className="imagen-footer"
+            layout="responsive"
+            width={500} 
+            height={100}
+          />
+        </div>
           <CopyrightText />
         </div>
       </footer>

@@ -98,7 +98,7 @@ const footer_data = {
   },
   contact_info: {
     id: 4,
-    title: "Contact Us",
+    title: "Contactanos",
     infos: [
       {
         id: 1,
